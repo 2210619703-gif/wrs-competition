@@ -1,0 +1,26 @@
+{
+    "task_id": "t001",
+    "action": "pick",
+    "object": "齿轮-齿条",
+    "destination": "null",
+    "retry": 0,
+    "max_retry": 3,
+    "status": "valid",
+    "reason": "",
+    "coordinate": [
+      0.3142257405942803,
+      -0.24485043471894188,
+      0.0
+    ],
+    "dest_coordinate": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "angle": 2.985969765881358,
+    "rpy": [
+      0.0,
+      0.0,
+      2.985969765881358
+    ]
+  }

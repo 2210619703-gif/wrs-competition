@@ -1,0 +1,2167 @@
+{
+  "task_id": "t_bin_all",
+  "action": "pack_bin_slots",
+  "object": "螺钉螺栓-喇叭头螺丝",
+  "coordinate": [
+    0.08296576375462109,
+    0.22731345611781895,
+    0.0
+  ],
+  "dest_coordinate": [
+    0.30374999999999996,
+    0.00375,
+    0.0015
+  ],
+  "destination": "料盘格子0",
+  "angle": 2.879777049082939,
+  "rpy": [
+    3.216653794674035,
+    0.08415005537886197,
+    2.879777049082939
+  ],
+  "retry": 0,
+  "max_retry": 3,
+  "status": "pending",
+  "reason": "共12件，按对应格子依次装箱（含姿态调姿）",
+  "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+  "job_count": 12,
+  "batch": [
+    {
+      "index": 1,
+      "object_id": 1,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 0,
+      "pose_state": "tilt",
+      "coordinate": [
+        0.08296576375462109,
+        0.22731345611781895,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.00375,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 2,
+      "object_id": 2,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 1,
+      "pose_state": "tilt",
+      "coordinate": [
+        -0.1648718506404342,
+        0.19843504936171885,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.00375,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 3,
+      "object_id": 3,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 2,
+      "pose_state": "upside_down",
+      "coordinate": [
+        -0.1952240287422293,
+        0.22479388880674467,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.00375,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 4,
+      "object_id": 4,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 3,
+      "pose_state": "tilt",
+      "coordinate": [
+        -0.020167973189156106,
+        0.24393507466819722,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.00375,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 5,
+      "object_id": 5,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 4,
+      "pose_state": "tilt",
+      "coordinate": [
+        -0.035203709509012006,
+        0.17914545749309133,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.00375,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 6,
+      "object_id": 6,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 5,
+      "pose_state": "tilt",
+      "coordinate": [
+        0.014628813090676152,
+        0.14359135910921417,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.00375,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 7,
+      "object_id": 7,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 6,
+      "pose_state": "normal",
+      "coordinate": [
+        0.014446399853382638,
+        0.22946531529684588,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.01125,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 8,
+      "object_id": 8,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 7,
+      "pose_state": "tilt",
+      "coordinate": [
+        -0.14931757625266862,
+        0.23148619164935788,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.01125,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 9,
+      "object_id": 9,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 8,
+      "pose_state": "normal",
+      "coordinate": [
+        0.06399288758135792,
+        0.1415670593391366,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.01125,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 10,
+      "object_id": 10,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 9,
+      "pose_state": "tilt",
+      "coordinate": [
+        -0.06728145583947723,
+        0.13774934251871931,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.01125,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 11,
+      "object_id": 11,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 10,
+      "pose_state": "tilt",
+      "coordinate": [
+        -0.21201685811651477,
+        0.19124154233964388,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.01125,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    },
+    {
+      "index": 12,
+      "object_id": 12,
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "slot_id": 11,
+      "pose_state": "tilt",
+      "coordinate": [
+        0.03429020300466645,
+        0.19614054551194895,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.01125,
+        0.0015
+      ],
+      "steps": [
+        "perceive",
+        "pick",
+        "adjust_pose",
+        "move",
+        "place"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "t001",
+      "step": 1,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.08296576375462109,
+        0.22731345611781895,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子0",
+      "angle": 2.879777049082939,
+      "rpy": [
+        3.216653794674035,
+        0.08415005537886197,
+        2.879777049082939
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 0,
+      "object_id": 1
+    },
+    {
+      "task_id": "t002",
+      "step": 2,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.08296576375462109,
+        0.22731345611781895,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子0",
+      "angle": 2.879777049082939,
+      "rpy": [
+        3.216653794674035,
+        0.08415005537886197,
+        2.879777049082939
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 0,
+      "object_id": 1,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t003",
+      "step": 3,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.08296576375462109,
+        0.22731345611781895,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子0",
+      "angle": 2.879777049082939,
+      "rpy": [
+        0.0,
+        0.0,
+        2.879777049082939
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "fallen",
+      "slot_id": 0,
+      "object_id": 1,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t004",
+      "step": 4,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3035,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子0",
+      "angle": 2.879777049082939,
+      "rpy": [
+        0.0,
+        0.0,
+        2.879777049082939
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 0,
+      "object_id": 1,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t005",
+      "step": 5,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3035,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子0",
+      "angle": 2.879777049082939,
+      "rpy": [
+        0.0,
+        0.0,
+        2.879777049082939
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 0,
+      "object_id": 1,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t006",
+      "step": 6,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.1648718506404342,
+        0.19843504936171885,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子1",
+      "angle": 1.7517725501222892,
+      "rpy": [
+        -0.07875107057526012,
+        0.01798886020334564,
+        1.7517725501222892
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 1,
+      "object_id": 2
+    },
+    {
+      "task_id": "t007",
+      "step": 7,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.1648718506404342,
+        0.19843504936171885,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子1",
+      "angle": 1.7517725501222892,
+      "rpy": [
+        -0.07875107057526012,
+        0.01798886020334564,
+        1.7517725501222892
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 1,
+      "object_id": 2,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t008",
+      "step": 8,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3098333333333333,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子1",
+      "angle": 1.7517725501222892,
+      "rpy": [
+        -0.07875107057526012,
+        0.01798886020334564,
+        1.7517725501222892
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 1,
+      "object_id": 2,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t009",
+      "step": 9,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3098333333333333,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子1",
+      "angle": 1.7517725501222892,
+      "rpy": [
+        -0.07875107057526012,
+        0.01798886020334564,
+        1.7517725501222892
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 1,
+      "object_id": 2,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t010",
+      "step": 10,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.1952240287422293,
+        0.22479388880674467,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子2",
+      "angle": 2.3271889061543054,
+      "rpy": [
+        -1.6498801405222363,
+        0.1472988782071501,
+        2.3271889061543054
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "upside_down",
+      "slot_id": 2,
+      "object_id": 3
+    },
+    {
+      "task_id": "t011",
+      "step": 11,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.1952240287422293,
+        0.22479388880674467,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子2",
+      "angle": 2.3271889061543054,
+      "rpy": [
+        -1.6498801405222363,
+        0.1472988782071501,
+        2.3271889061543054
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 2,
+      "object_id": 3,
+      "pose_state": "upside_down"
+    },
+    {
+      "task_id": "t012",
+      "step": 12,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.1952240287422293,
+        0.22479388880674467,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子2",
+      "angle": 2.3271889061543054,
+      "rpy": [
+        0.0,
+        0.0,
+        2.3271889061543054
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "inverted",
+      "slot_id": 2,
+      "object_id": 3,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t013",
+      "step": 13,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.31616666666666665,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子2",
+      "angle": 2.3271889061543054,
+      "rpy": [
+        0.0,
+        0.0,
+        2.3271889061543054
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 2,
+      "object_id": 3,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t014",
+      "step": 14,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.31616666666666665,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子2",
+      "angle": 2.3271889061543054,
+      "rpy": [
+        0.0,
+        0.0,
+        2.3271889061543054
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 2,
+      "object_id": 3,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t015",
+      "step": 15,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.020167973189156106,
+        0.24393507466819722,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子3",
+      "angle": 1.660086473204529,
+      "rpy": [
+        0.09906719387680807,
+        3.2158238846750526,
+        1.660086473204529
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 3,
+      "object_id": 4
+    },
+    {
+      "task_id": "t016",
+      "step": 16,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.020167973189156106,
+        0.24393507466819722,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子3",
+      "angle": 1.660086473204529,
+      "rpy": [
+        0.09906719387680807,
+        3.2158238846750526,
+        1.660086473204529
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 3,
+      "object_id": 4,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t017",
+      "step": 17,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.020167973189156106,
+        0.24393507466819722,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子3",
+      "angle": 1.660086473204529,
+      "rpy": [
+        0.0,
+        0.0,
+        1.660086473204529
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "fallen",
+      "slot_id": 3,
+      "object_id": 4,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t018",
+      "step": 18,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3225,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子3",
+      "angle": 1.660086473204529,
+      "rpy": [
+        0.0,
+        0.0,
+        1.660086473204529
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 3,
+      "object_id": 4,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t019",
+      "step": 19,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3225,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子3",
+      "angle": 1.660086473204529,
+      "rpy": [
+        0.0,
+        0.0,
+        1.660086473204529
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 3,
+      "object_id": 4,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t020",
+      "step": 20,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.035203709509012006,
+        0.17914545749309133,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子4",
+      "angle": 3.3577452646636563,
+      "rpy": [
+        3.166157087134172,
+        0.07377673320156553,
+        3.3577452646636563
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 4,
+      "object_id": 5
+    },
+    {
+      "task_id": "t021",
+      "step": 21,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.035203709509012006,
+        0.17914545749309133,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子4",
+      "angle": 3.3577452646636563,
+      "rpy": [
+        3.166157087134172,
+        0.07377673320156553,
+        3.3577452646636563
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 4,
+      "object_id": 5,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t022",
+      "step": 22,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.035203709509012006,
+        0.17914545749309133,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子4",
+      "angle": 3.3577452646636563,
+      "rpy": [
+        0.0,
+        0.0,
+        3.3577452646636563
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "fallen",
+      "slot_id": 4,
+      "object_id": 5,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t023",
+      "step": 23,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3288333333333333,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子4",
+      "angle": 3.3577452646636563,
+      "rpy": [
+        0.0,
+        0.0,
+        3.3577452646636563
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 4,
+      "object_id": 5,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t024",
+      "step": 24,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3288333333333333,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子4",
+      "angle": 3.3577452646636563,
+      "rpy": [
+        0.0,
+        0.0,
+        3.3577452646636563
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 4,
+      "object_id": 5,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t025",
+      "step": 25,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.014628813090676152,
+        0.14359135910921417,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子5",
+      "angle": 0.6501851851069961,
+      "rpy": [
+        -0.03337247529092753,
+        -0.07360002779335348,
+        0.6501851851069961
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 5,
+      "object_id": 6
+    },
+    {
+      "task_id": "t026",
+      "step": 26,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.014628813090676152,
+        0.14359135910921417,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子5",
+      "angle": 0.6501851851069961,
+      "rpy": [
+        -0.03337247529092753,
+        -0.07360002779335348,
+        0.6501851851069961
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 5,
+      "object_id": 6,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t027",
+      "step": 27,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.33516666666666667,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子5",
+      "angle": 0.6501851851069961,
+      "rpy": [
+        -0.03337247529092753,
+        -0.07360002779335348,
+        0.6501851851069961
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 5,
+      "object_id": 6,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t028",
+      "step": 28,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.33516666666666667,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.00375,
+        0.0015
+      ],
+      "destination": "料盘格子5",
+      "angle": 0.6501851851069961,
+      "rpy": [
+        -0.03337247529092753,
+        -0.07360002779335348,
+        0.6501851851069961
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 5,
+      "object_id": 6,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t029",
+      "step": 29,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.014446399853382638,
+        0.22946531529684588,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子6",
+      "angle": 0.94399781186746,
+      "rpy": [
+        1.5721460397105753,
+        -0.003551754554231623,
+        0.94399781186746
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "normal",
+      "slot_id": 6,
+      "object_id": 7
+    },
+    {
+      "task_id": "t030",
+      "step": 30,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.014446399853382638,
+        0.22946531529684588,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子6",
+      "angle": 0.94399781186746,
+      "rpy": [
+        1.5721460397105753,
+        -0.003551754554231623,
+        0.94399781186746
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 6,
+      "object_id": 7,
+      "pose_state": "normal"
+    },
+    {
+      "task_id": "t031",
+      "step": 31,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.014446399853382638,
+        0.22946531529684588,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子6",
+      "angle": 0.94399781186746,
+      "rpy": [
+        0.0,
+        0.0,
+        0.94399781186746
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "normal",
+      "slot_id": 6,
+      "object_id": 7,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t032",
+      "step": 32,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.34149999999999997,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子6",
+      "angle": 0.94399781186746,
+      "rpy": [
+        0.0,
+        0.0,
+        0.94399781186746
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 6,
+      "object_id": 7,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t033",
+      "step": 33,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.34149999999999997,
+        -0.0365,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.30374999999999996,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子6",
+      "angle": 0.94399781186746,
+      "rpy": [
+        0.0,
+        0.0,
+        0.94399781186746
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 6,
+      "object_id": 7,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t034",
+      "step": 34,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.14931757625266862,
+        0.23148619164935788,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子7",
+      "angle": 4.225812665603176,
+      "rpy": [
+        -0.09595476423595393,
+        3.1540162391243594,
+        4.225812665603176
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 7,
+      "object_id": 8
+    },
+    {
+      "task_id": "t035",
+      "step": 35,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.14931757625266862,
+        0.23148619164935788,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子7",
+      "angle": 4.225812665603176,
+      "rpy": [
+        -0.09595476423595393,
+        3.1540162391243594,
+        4.225812665603176
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 7,
+      "object_id": 8,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t036",
+      "step": 36,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.14931757625266862,
+        0.23148619164935788,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子7",
+      "angle": 4.225812665603176,
+      "rpy": [
+        0.0,
+        0.0,
+        4.225812665603176
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "fallen",
+      "slot_id": 7,
+      "object_id": 8,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t037",
+      "step": 37,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3035,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子7",
+      "angle": 4.225812665603176,
+      "rpy": [
+        0.0,
+        0.0,
+        4.225812665603176
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 7,
+      "object_id": 8,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t038",
+      "step": 38,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3035,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.31124999999999997,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子7",
+      "angle": 4.225812665603176,
+      "rpy": [
+        0.0,
+        0.0,
+        4.225812665603176
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 7,
+      "object_id": 8,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t039",
+      "step": 39,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.06399288758135792,
+        0.1415670593391366,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子8",
+      "angle": 1.6844156707105544,
+      "rpy": [
+        1.4692197967875111,
+        -0.11716829552733349,
+        1.6844156707105544
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "normal",
+      "slot_id": 8,
+      "object_id": 9
+    },
+    {
+      "task_id": "t040",
+      "step": 40,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.06399288758135792,
+        0.1415670593391366,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子8",
+      "angle": 1.6844156707105544,
+      "rpy": [
+        1.4692197967875111,
+        -0.11716829552733349,
+        1.6844156707105544
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 8,
+      "object_id": 9,
+      "pose_state": "normal"
+    },
+    {
+      "task_id": "t041",
+      "step": 41,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.06399288758135792,
+        0.1415670593391366,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子8",
+      "angle": 1.6844156707105544,
+      "rpy": [
+        0.0,
+        0.0,
+        1.6844156707105544
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "normal",
+      "slot_id": 8,
+      "object_id": 9,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t042",
+      "step": 42,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3098333333333333,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子8",
+      "angle": 1.6844156707105544,
+      "rpy": [
+        0.0,
+        0.0,
+        1.6844156707105544
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 8,
+      "object_id": 9,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t043",
+      "step": 43,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3098333333333333,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.31875,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子8",
+      "angle": 1.6844156707105544,
+      "rpy": [
+        0.0,
+        0.0,
+        1.6844156707105544
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 8,
+      "object_id": 9,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t044",
+      "step": 44,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.06728145583947723,
+        0.13774934251871931,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子9",
+      "angle": 0.2851194760537335,
+      "rpy": [
+        -0.06840212628931003,
+        0.04884108805762029,
+        0.2851194760537335
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 9,
+      "object_id": 10
+    },
+    {
+      "task_id": "t045",
+      "step": 45,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.06728145583947723,
+        0.13774934251871931,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子9",
+      "angle": 0.2851194760537335,
+      "rpy": [
+        -0.06840212628931003,
+        0.04884108805762029,
+        0.2851194760537335
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 9,
+      "object_id": 10,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t046",
+      "step": 46,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.31616666666666665,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子9",
+      "angle": 0.2851194760537335,
+      "rpy": [
+        -0.06840212628931003,
+        0.04884108805762029,
+        0.2851194760537335
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 9,
+      "object_id": 10,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t047",
+      "step": 47,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.31616666666666665,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.32625,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子9",
+      "angle": 0.2851194760537335,
+      "rpy": [
+        -0.06840212628931003,
+        0.04884108805762029,
+        0.2851194760537335
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 9,
+      "object_id": 10,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t048",
+      "step": 48,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.21201685811651477,
+        0.19124154233964388,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子10",
+      "angle": 0.2825692993022524,
+      "rpy": [
+        -0.08156664934090618,
+        -1.479207433224005,
+        0.2825692993022524
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 10,
+      "object_id": 11
+    },
+    {
+      "task_id": "t049",
+      "step": 49,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.21201685811651477,
+        0.19124154233964388,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子10",
+      "angle": 0.2825692993022524,
+      "rpy": [
+        -0.08156664934090618,
+        -1.479207433224005,
+        0.2825692993022524
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 10,
+      "object_id": 11,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t050",
+      "step": 50,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        -0.21201685811651477,
+        0.19124154233964388,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子10",
+      "angle": 0.2825692993022524,
+      "rpy": [
+        0.0,
+        0.0,
+        0.2825692993022524
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "fallen",
+      "slot_id": 10,
+      "object_id": 11,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t051",
+      "step": 51,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3225,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子10",
+      "angle": 0.2825692993022524,
+      "rpy": [
+        0.0,
+        0.0,
+        0.2825692993022524
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 10,
+      "object_id": 11,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t052",
+      "step": 52,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3225,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.33375,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子10",
+      "angle": 0.2825692993022524,
+      "rpy": [
+        0.0,
+        0.0,
+        0.2825692993022524
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 10,
+      "object_id": 11,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t053",
+      "step": 53,
+      "action": "perceive",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.03429020300466645,
+        0.19614054551194895,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子11",
+      "angle": 5.383717457905692,
+      "rpy": [
+        -0.13582813017655448,
+        1.660282540921506,
+        5.383717457905692
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "识别并判断正常/倒放/倾倒",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "pose_state": "tilt",
+      "slot_id": 11,
+      "object_id": 12
+    },
+    {
+      "task_id": "t054",
+      "step": 54,
+      "action": "pick",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.03429020300466645,
+        0.19614054551194895,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子11",
+      "angle": 5.383717457905692,
+      "rpy": [
+        -0.13582813017655448,
+        1.660282540921506,
+        5.383717457905692
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 11,
+      "object_id": 12,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t055",
+      "step": 55,
+      "action": "adjust_pose",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.03429020300466645,
+        0.19614054551194895,
+        0.0
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子11",
+      "angle": 5.383717457905692,
+      "rpy": [
+        0.0,
+        0.0,
+        5.383717457905692
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "倒放/倾倒翻正后再放置",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "target_pose_state": "fallen",
+      "slot_id": 11,
+      "object_id": 12,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t056",
+      "step": 56,
+      "action": "move",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3288333333333333,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子11",
+      "angle": 5.383717457905692,
+      "rpy": [
+        0.0,
+        0.0,
+        5.383717457905692
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "移至放置点",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "slot_id": 11,
+      "object_id": 12,
+      "pose_state": "tilt"
+    },
+    {
+      "task_id": "t057",
+      "step": 57,
+      "action": "place",
+      "object": "螺钉螺栓-喇叭头螺丝",
+      "coordinate": [
+        0.3288333333333333,
+        -0.029875,
+        0.0015
+      ],
+      "dest_coordinate": [
+        0.34125,
+        0.01125,
+        0.0015
+      ],
+      "destination": "料盘格子11",
+      "angle": 5.383717457905692,
+      "rpy": [
+        0.0,
+        0.0,
+        5.383717457905692
+      ],
+      "retry": 0,
+      "max_retry": 3,
+      "status": "pending",
+      "reason": "",
+      "original_cmd": "把桌面上的喇叭头螺丝依次放进料盘对应格子",
+      "on_fail": {
+        "action": "retry_place",
+        "max_retry": 3,
+        "reason": "失败则重感知-调姿-再放"
+      },
+      "slot_id": 11,
+      "object_id": 12,
+      "pose_state": "tilt"
+    }
+  ],
+  "task_sequence_desc": [
+    "1.id1→slot0(upside_down):perceive>pick>adjust_pose>move>place",
+    "2.id2→slot1(normal):perceive>pick>move>place",
+    "3.id3→slot2(tilt):perceive>pick>adjust_pose>move>place",
+    "4.id4→slot3(upside_down):perceive>pick>adjust_pose>move>place",
+    "5.id5→slot4(upside_down):perceive>pick>adjust_pose>move>place",
+    "6.id6→slot5(normal):perceive>pick>move>place",
+    "7.id7→slot6(tilt):perceive>pick>adjust_pose>move>place",
+    "8.id8→slot7(upside_down):perceive>pick>adjust_pose>move>place",
+    "9.id9→slot8(tilt):perceive>pick>adjust_pose>move>place",
+    "10.id10→slot9(normal):perceive>pick>move>place",
+    "11.id11→slot10(tilt):perceive>pick>adjust_pose>move>place",
+    "12.id12→slot11(tilt):perceive>pick>adjust_pose>move>place"
+  ]
+}

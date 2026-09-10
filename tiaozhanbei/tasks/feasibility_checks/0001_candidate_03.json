@@ -1,0 +1,156 @@
+{
+  "task": {
+    "task_id": "t_random_feasible_03",
+    "action": "pick_place",
+    "object": "螺母-焊接螺母",
+    "coordinate": [
+      -0.27181021343280154,
+      0.05563015453790854,
+      0.0
+    ],
+    "dest_coordinate": [
+      0.3,
+      -0.2,
+      0.0
+    ],
+    "destination": "收纳盒",
+    "angle": 6.207905843177366,
+    "rpy": [
+      0.0,
+      0.0,
+      6.207905843177366
+    ],
+    "retry": 0,
+    "max_retry": 3,
+    "status": "pending",
+    "reason": "随机候选预筛通过后执行",
+    "original_cmd": "帮我把所有零件放进收纳筐",
+    "pose_state": "normal",
+    "tasks": [
+      {
+        "task_id": "t001",
+        "step": 1,
+        "action": "perceive",
+        "object": "螺母-焊接螺母",
+        "coordinate": [
+          -0.27181021343280154,
+          0.05563015453790854,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 6.207905843177366,
+        "rpy": [
+          0.0,
+          0.0,
+          6.207905843177366
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "帮我把所有零件放进收纳筐",
+        "pose_state": "normal"
+      },
+      {
+        "task_id": "t002",
+        "step": 2,
+        "action": "pick",
+        "object": "螺母-焊接螺母",
+        "coordinate": [
+          -0.27181021343280154,
+          0.05563015453790854,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 6.207905843177366,
+        "rpy": [
+          0.0,
+          0.0,
+          6.207905843177366
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "帮我把所有零件放进收纳筐",
+        "pose_state": "normal"
+      },
+      {
+        "task_id": "t003",
+        "step": 3,
+        "action": "move",
+        "object": "螺母-焊接螺母",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 6.207905843177366,
+        "rpy": [
+          0.0,
+          0.0,
+          6.207905843177366
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "帮我把所有零件放进收纳筐",
+        "pose_state": "normal"
+      },
+      {
+        "task_id": "t004",
+        "step": 4,
+        "action": "place",
+        "object": "螺母-焊接螺母",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 6.207905843177366,
+        "rpy": [
+          0.0,
+          0.0,
+          6.207905843177366
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "帮我把所有零件放进收纳筐",
+        "pose_state": "normal"
+      }
+    ],
+    "task_sequence_desc": [
+      "1.perceive 识别定位目标",
+      "2.pick 抓取目标零件",
+      "3.move 移动至放置点",
+      "4.place 放入收纳盒"
+    ],
+    "source": "dify_api:task_data",
+    "postprocess": "local_feasibility_precheck"
+  }
+}

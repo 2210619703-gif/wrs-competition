@@ -1,0 +1,6 @@
+path: F:/wrs-main-competition/wrs/drivers/devices/realsense/block_images
+train: images/train
+val: images/val
+test: images/test
+nc: 5
+names: ['red', 'green', 'blue', 'yellow', 'orange']

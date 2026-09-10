@@ -1,0 +1,25 @@
+.git
+.venv
+venv
+**/__pycache__
+**/*.pyc
+**/.idea
+**/.vscode
+
+# 仿真全量数据：运行时挂载，不打进镜像
+tiaozhanbei/dataset_learn
+dataset_learn
+
+# 实机训练全量、中间产物
+tiaozhanbei/yolo/实机/dataset
+tiaozhanbei/yolo/仿真/outputs
+tiaozhanbei/decision/tasks
+**/*.log
+
+# 仓库里其它工程，仿真镜像不需要
+0000_*
+competition
+pick_multi_block
+objects
+runs
+fafu_arm_sdk-main

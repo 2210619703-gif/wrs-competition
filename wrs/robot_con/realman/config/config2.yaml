@@ -1,0 +1,12 @@
+robot:
+  ip_address: "192.168.3.18"
+  port: 8080
+
+control:
+  frequency: 20.0
+  free_drag:
+    coordinate_frame: "TOOL"       # 关键：沿手的方向
+    stiffness: 0                   # 无回弹
+    damping: [50, 50, 50, 2, 2, 2] # 关键：改小阻尼，让它变轻！(原值400太重了)
+    mass: [20, 20, 20, 1, 1, 1]    # 减小惯性
+    force_threshold_activate: 1.0  # 关键：1N就能推动 (原值8N太难推)

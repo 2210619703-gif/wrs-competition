@@ -1,0 +1,463 @@
+{
+  "scene": "standard",
+  "scene_source": "yolo",
+  "sample_id": "0501",
+  "scene_reason": "启动时随机场景",
+  "agent_source": "远程 Dify 智能体",
+  "user_cmd": "把所有零件放进收纳筐",
+  "yolo_annotations": "F:\\wrs-main-competition\\tiaozhanbei\\yolo\\仿真\\outputs\\0501.json",
+  "dataset_root": "F:\\wrs-main-competition\\tiaozhanbei\\dataset_learn",
+  "task": {
+    "task_id": "t_random_feasible_multi",
+    "action": "multi_pick_place",
+    "object": "螺钉螺栓-石膏板圆头螺丝、轴承-组合轴承、螺钉螺栓-塑料圆柱头螺丝",
+    "coordinate": [
+      0.11467345646602967,
+      0.12310844617750649,
+      0.0
+    ],
+    "dest_coordinate": [
+      0.3,
+      -0.2,
+      0.0
+    ],
+    "destination": "收纳盒",
+    "status": "pending",
+    "reason": "随机任务已预筛，选择 3 个可规划成功零件",
+    "source": "dify_api:task_data",
+    "postprocess": "local_feasibility_precheck",
+    "original_cmd": "把所有零件放进收纳筐",
+    "batch": [
+      {
+        "index": 1,
+        "object": "螺钉螺栓-石膏板圆头螺丝",
+        "coordinate": [
+          0.11467345646602967,
+          0.12310844617750649,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "steps": [
+          "perceive",
+          "pick",
+          "move",
+          "place"
+        ]
+      },
+      {
+        "index": 2,
+        "object": "轴承-组合轴承",
+        "coordinate": [
+          0.018784421163486997,
+          0.19013807222300838,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "steps": [
+          "perceive",
+          "pick",
+          "move",
+          "place"
+        ]
+      },
+      {
+        "index": 3,
+        "object": "螺钉螺栓-塑料圆柱头螺丝",
+        "coordinate": [
+          -0.24083247302649308,
+          0.26285793137489855,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "steps": [
+          "perceive",
+          "pick",
+          "move",
+          "place"
+        ]
+      }
+    ],
+    "tasks": [
+      {
+        "task_id": "t001",
+        "step": 1,
+        "action": "perceive",
+        "object": "螺钉螺栓-石膏板圆头螺丝",
+        "coordinate": [
+          0.11467345646602967,
+          0.12310844617750649,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -1.0358150367687389,
+        "rpy": [
+          0.0,
+          0.0,
+          -1.0358150367687389
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "batch_index": 1
+      },
+      {
+        "task_id": "t002",
+        "step": 2,
+        "action": "pick",
+        "object": "螺钉螺栓-石膏板圆头螺丝",
+        "coordinate": [
+          0.11467345646602967,
+          0.12310844617750649,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -1.0358150367687389,
+        "rpy": [
+          0.0,
+          0.0,
+          -1.0358150367687389
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "batch_index": 1
+      },
+      {
+        "task_id": "t003",
+        "step": 3,
+        "action": "move",
+        "object": "螺钉螺栓-石膏板圆头螺丝",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -1.0358150367687389,
+        "rpy": [
+          0.0,
+          0.0,
+          -1.0358150367687389
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "batch_index": 1
+      },
+      {
+        "task_id": "t004",
+        "step": 4,
+        "action": "place",
+        "object": "螺钉螺栓-石膏板圆头螺丝",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -1.0358150367687389,
+        "rpy": [
+          0.0,
+          0.0,
+          -1.0358150367687389
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "batch_index": 1
+      },
+      {
+        "task_id": "t005",
+        "step": 5,
+        "action": "perceive",
+        "object": "轴承-组合轴承",
+        "coordinate": [
+          0.018784421163486997,
+          0.19013807222300838,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -1.207662034074444,
+        "rpy": [
+          0.0,
+          0.0,
+          -1.207662034074444
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "batch_index": 2
+      },
+      {
+        "task_id": "t006",
+        "step": 6,
+        "action": "pick",
+        "object": "轴承-组合轴承",
+        "coordinate": [
+          0.018784421163486997,
+          0.19013807222300838,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -1.207662034074444,
+        "rpy": [
+          0.0,
+          0.0,
+          -1.207662034074444
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "batch_index": 2
+      },
+      {
+        "task_id": "t007",
+        "step": 7,
+        "action": "move",
+        "object": "轴承-组合轴承",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -1.207662034074444,
+        "rpy": [
+          0.0,
+          0.0,
+          -1.207662034074444
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "batch_index": 2
+      },
+      {
+        "task_id": "t008",
+        "step": 8,
+        "action": "place",
+        "object": "轴承-组合轴承",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -1.207662034074444,
+        "rpy": [
+          0.0,
+          0.0,
+          -1.207662034074444
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "batch_index": 2
+      },
+      {
+        "task_id": "t009",
+        "step": 9,
+        "action": "perceive",
+        "object": "螺钉螺栓-塑料圆柱头螺丝",
+        "coordinate": [
+          -0.24083247302649308,
+          0.26285793137489855,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -0.8993329565131118,
+        "rpy": [
+          1.5707963267948966,
+          0.0,
+          -0.8993329565131118
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "fallen",
+        "batch_index": 3
+      },
+      {
+        "task_id": "t010",
+        "step": 10,
+        "action": "pick",
+        "object": "螺钉螺栓-塑料圆柱头螺丝",
+        "coordinate": [
+          -0.24083247302649308,
+          0.26285793137489855,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -0.8993329565131118,
+        "rpy": [
+          1.5707963267948966,
+          0.0,
+          -0.8993329565131118
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "fallen",
+        "batch_index": 3
+      },
+      {
+        "task_id": "t011",
+        "step": 11,
+        "action": "move",
+        "object": "螺钉螺栓-塑料圆柱头螺丝",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -0.8993329565131118,
+        "rpy": [
+          1.5707963267948966,
+          0.0,
+          -0.8993329565131118
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "fallen",
+        "batch_index": 3
+      },
+      {
+        "task_id": "t012",
+        "step": 12,
+        "action": "place",
+        "object": "螺钉螺栓-塑料圆柱头螺丝",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": -0.8993329565131118,
+        "rpy": [
+          1.5707963267948966,
+          0.0,
+          -0.8993329565131118
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "随机候选预筛",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "fallen",
+        "batch_index": 3
+      }
+    ],
+    "task_sequence_desc": [
+      "1.螺钉螺栓-石膏板圆头螺丝:perceive>pick>move>place",
+      "2.轴承-组合轴承:perceive>pick>move>place",
+      "3.螺钉螺栓-塑料圆柱头螺丝:perceive>pick>move>place"
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "scene": "standard",
+  "scene_source": "real_d405",
+  "agent_source": "远程 Dify 智能体",
+  "user_cmd": "把所有零件放进收纳筐",
+  "sample_id": "real01",
+  "task": {
+    "task_id": "t_pack_batch",
+    "action": "multi_pick",
+    "object": "所有零件",
+    "coordinate": [
+      0.35461831829384194,
+      0.03984943287432202,
+      0.0
+    ],
+    "dest_coordinate": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "destination": "null",
+    "angle": 0.7495050595903059,
+    "rpy": [
+      0.0,
+      0.0,
+      0.7495050595903059
+    ],
+    "retry": 0,
+    "max_retry": 3,
+    "status": "pending",
+    "reason": "按口令生成: 把所有零件放进收纳筐",
+    "original_cmd": "把所有零件放进收纳筐",
+    "job_count": 2,
+    "skipped": [],
+    "skip_on_fail": true,
+    "tasks": [
+      {
+        "task_id": "t001",
+        "step": 1,
+        "action": "perceive",
+        "object": "机器工具-螺丝刀",
+        "coordinate": [
+          0.35461831829384194,
+          0.03984943287432202,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "destination": "null",
+        "angle": 0.7495050595903059,
+        "rpy": [
+          0.0,
+          0.0,
+          0.7495050595903059
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "识别并判断正常/倒放/倾倒",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "skip_on_fail": true,
+        "on_fail": {
+          "action": "skip_continue",
+          "reason": "该件规划/执行失败则跳过，继续下一件"
+        },
+        "object_id": 1
+      },
+      {
+        "task_id": "t002",
+        "step": 2,
+        "action": "pick",
+        "object": "机器工具-螺丝刀",
+        "coordinate": [
+          0.35461831829384194,
+          0.03984943287432202,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "destination": "null",
+        "angle": 0.7495050595903059,
+        "rpy": [
+          0.0,
+          0.0,
+          0.7495050595903059
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "",
+        "original_cmd": "把所有零件放进收纳筐",
+        "skip_on_fail": true,
+        "on_fail": {
+          "action": "skip_continue",
+          "reason": "该件规划/执行失败则跳过，继续下一件"
+        },
+        "object_id": 1,
+        "pose_state": "normal"
+      },
+      {
+        "task_id": "t005",
+        "step": 5,
+        "action": "perceive",
+        "object": "轴承-杆端关节轴承",
+        "coordinate": [
+          0.31618225800129174,
+          -0.13777104347028507,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "destination": "null",
+        "angle": -0.5396486423971584,
+        "rpy": [
+          0.0,
+          0.0,
+          -0.5396486423971584
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "识别并判断正常/倒放/倾倒",
+        "original_cmd": "把所有零件放进收纳筐",
+        "pose_state": "normal",
+        "skip_on_fail": true,
+        "on_fail": {
+          "action": "skip_continue",
+          "reason": "该件规划/执行失败则跳过，继续下一件"
+        },
+        "object_id": 2
+      },
+      {
+        "task_id": "t006",
+        "step": 6,
+        "action": "pick",
+        "object": "轴承-杆端关节轴承",
+        "coordinate": [
+          0.31618225800129174,
+          -0.13777104347028507,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "destination": "null",
+        "angle": -0.5396486423971584,
+        "rpy": [
+          0.0,
+          0.0,
+          -0.5396486423971584
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "",
+        "original_cmd": "把所有零件放进收纳筐",
+        "skip_on_fail": true,
+        "on_fail": {
+          "action": "skip_continue",
+          "reason": "该件规划/执行失败则跳过，继续下一件"
+        },
+        "object_id": 2,
+        "pose_state": "normal"
+      }
+    ],
+    "task_sequence_desc": [
+      "1.机器工具-螺丝刀:perceive>pick>move>place",
+      "2.轴承-杆端关节轴承:perceive>pick>move>place"
+    ],
+    "on_fail": {
+      "action": "skip_continue",
+      "reason": "该件规划/执行失败则跳过，继续下一件"
+    },
+    "tasks_json": "[{\"task_id\": \"t001\", \"step\": 1, \"action\": \"perceive\", \"object\": \"机器工具-螺丝刀\", \"coordinate\": [0.35461831829384194, 0.03984943287432202, 0.037543810576027306], \"dest_coordinate\": [0.3, -0.2, 0.0], \"destination\": \"收纳盒\", \"angle\": 0.7495050595903059, \"rpy\": [0.0, 0.0, 0.7495050595903059], \"retry\": 0, \"max_retry\": 3, \"status\": \"pending\", \"reason\": \"识别并判断正常/倒放/倾倒\", \"original_cmd\": \"把所有零件放进收纳筐\", \"pose_state\": \"normal\", \"skip_on_fail\": true, \"on_fail\": {\"action\": \"skip_continue\", \"reason\": \"该件规划/执行失败则跳过，继续下一件\"}, \"object_id\": 1}, {\"task_id\": \"t002\", \"step\": 2, \"action\": \"pick\", \"object\": \"机器工具-螺丝刀\", \"coordinate\": [0.35461831829384194, 0.03984943287432202, 0.037543810576027306], \"dest_coordinate\": [0.3, -0.2, 0.0], \"destination\": \"收纳盒\", \"angle\": 0.7495050595903059, \"rpy\": [0.0, 0.0, 0.7495050595903059], \"retry\": 0, \"max_retry\": 3, \"status\": \"pending\", \"reason\": \"\", \"original_cmd\": \"把所有零件放进收纳筐\", \"skip_on_fail\": true, \"on_fail\": {\"action\": \"skip_continue\", \"reason\": \"该件规划/执行失败则跳过，继续下一件\"}, \"object_id\": 1}, {\"task_id\": \"t003\", \"step\": 3, \"action\": \"move\", \"object\": \"机器工具-螺丝刀\", \"coordinate\": [0.3, -0.2, 0.0], \"dest_coordinate\": [0.3, -0.2, 0.0], \"destination\": \"收纳盒\", \"angle\": 0.7495050595903059, \"rpy\": [0.0, 0.0, 0.7495050595903059], \"retry\": 0, \"max_retry\": 3, \"status\": \"pending\", \"reason\": \"移至放置点\", \"original_cmd\": \"把所有零件放进收纳筐\", \"skip_on_fail\": true, \"on_fail\": {\"action\": \"skip_continue\", \"reason\": \"该件规划/执行失败则跳过，继续下一件\"}, \"object_id\": 1}, {\"task_id\": \"t004\", \"step\": 4, \"action\": \"place\", \"object\": \"机器工具-螺丝刀\", \"coordinate\": [0.3, -0.2, 0.0], \"dest_coordinate\": [0.3, -0.2, 0.0], \"destination\": \"收纳盒\", \"angle\": 0.7495050595903059, \"rpy\": [0.0, 0.0, 0.7495050595903059], \"retry\": 0, \"max_retry\": 3, \"status\": \"pending\", \"reason\": \"\", \"original_cmd\": \"把所有零件放进收纳筐\", \"on_fail\": {\"action\": \"skip_continue\", \"max_retry\": 3, \"reason\": \"该件规划/执行失败则跳过，继续下一件\"}, \"skip_on_fail\": true, \"object_id\": 1}, {\"task_id\": \"t005\", \"step\": 5, \"action\": \"perceive\", \"object\": \"轴承-杆端关节轴承\", \"coordinate\": [0.31618225800129174, -0.13777104347028507, 0.03798218907564051], \"dest_coordinate\": [0.3, -0.2, 0.0], \"destination\": \"收纳盒\", \"angle\": -0.5396486423971584, \"rpy\": [0.0, 0.0, -0.5396486423971584], \"retry\": 0, \"max_retry\": 3, \"status\": \"pending\", \"reason\": \"识别并判断正常/倒放/倾倒\", \"original_cmd\": \"把所有零件放进收纳筐\", \"pose_state\": \"normal\", \"skip_on_fail\": true, \"on_fail\": {\"action\": \"skip_continue\", \"reason\": \"该件规划/执行失败则跳过，继续下一件\"}, \"object_id\": 2}, {\"task_id\": \"t006\", \"step\": 6, \"action\": \"pick\", \"object\": \"轴承-杆端关节轴承\", \"coordinate\": [0.31618225800129174, -0.13777104347028507, 0.03798218907564051], \"dest_coordinate\": [0.3, -0.2, 0.0], \"destination\": \"收纳盒\", \"angle\": -0.5396486423971584, \"rpy\": [0.0, 0.0, -0.5396486423971584], \"retry\": 0, \"max_retry\": 3, \"status\": \"pending\", \"reason\": \"\", \"original_cmd\": \"把所有零件放进收纳筐\", \"skip_on_fail\": true, \"on_fail\": {\"action\": \"skip_continue\", \"reason\": \"该件规划/执行失败则跳过，继续下一件\"}, \"object_id\": 2}, {\"task_id\": \"t007\", \"step\": 7, \"action\": \"move\", \"object\": \"轴承-杆端关节轴承\", \"coordinate\": [0.3, -0.2, 0.0], \"dest_coordinate\": [0.3, -0.2, 0.0], \"destination\": \"收纳盒\", \"angle\": -0.5396486423971584, \"rpy\": [0.0, 0.0, -0.5396486423971584], \"retry\": 0, \"max_retry\": 3, \"status\": \"pending\", \"reason\": \"移至放置点\", \"original_cmd\": \"把所有零件放进收纳筐\", \"skip_on_fail\": true, \"on_fail\": {\"action\": \"skip_continue\", \"reason\": \"该件规划/执行失败则跳过，继续下一件\"}, \"object_id\": 2}, {\"task_id\": \"t008\", \"step\": 8, \"action\": \"place\", \"object\": \"轴承-杆端关节轴承\", \"coordinate\": [0.3, -0.2, 0.0], \"dest_coordinate\": [0.3, -0.2, 0.0], \"destination\": \"收纳盒\", \"angle\": -0.5396486423971584, \"rpy\": [0.0, 0.0, -0.5396486423971584], \"retry\": 0, \"max_retry\": 3, \"status\": \"pending\", \"reason\": \"\", \"original_cmd\": \"把所有零件放进收纳筐\", \"on_fail\": {\"action\": \"skip_continue\", \"max_retry\": 3, \"reason\": \"该件规划/执行失败则跳过，继续下一件\"}, \"skip_on_fail\": true, \"object_id\": 2}]",
+    "actions_flat": [
+      "perceive",
+      "pick",
+      "move",
+      "place",
+      "perceive",
+      "pick",
+      "move",
+      "place"
+    ],
+    "tasks_count": 8,
+    "batch_json": "[{\"index\": 1, \"object\": \"机器工具-螺丝刀\", \"object_id\": 1, \"pose_state\": \"normal\", \"coordinate\": [0.35461831829384194, 0.03984943287432202, 0.037543810576027306], \"steps\": [\"perceive\", \"pick\", \"move\", \"place\"]}, {\"index\": 2, \"object\": \"轴承-杆端关节轴承\", \"object_id\": 2, \"pose_state\": \"normal\", \"coordinate\": [0.31618225800129174, -0.13777104347028507, 0.03798218907564051], \"steps\": [\"perceive\", \"pick\", \"move\", \"place\"]}]",
+    "source": "dify_api:task_data",
+    "pose_state": "normal",
+    "batch": [
+      {
+        "object": "机器工具-螺丝刀",
+        "coordinate": [
+          0.35461831829384194,
+          0.03984943287432202,
+          0.0
+        ],
+        "angle": 0.7495050595903059,
+        "rpy": [
+          0.0,
+          0.0,
+          0.7495050595903059
+        ],
+        "pose_state": "normal",
+        "destination": "null",
+        "dest_coordinate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "steps": [
+          "perceive",
+          "pick"
+        ],
+        "reason": "视觉识别 screwdrivers"
+      },
+      {
+        "object": "轴承-杆端关节轴承",
+        "coordinate": [
+          0.31618225800129174,
+          -0.13777104347028507,
+          0.0
+        ],
+        "angle": -0.5396486423971584,
+        "rpy": [
+          0.0,
+          0.0,
+          -0.5396486423971584
+        ],
+        "pose_state": "normal",
+        "destination": "null",
+        "dest_coordinate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "steps": [
+          "perceive",
+          "pick"
+        ],
+        "reason": "视觉识别 rod_ends"
+      }
+    ]
+  }
+}

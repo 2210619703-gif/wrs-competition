@@ -1,0 +1,10 @@
+# YOLO-OBB 数据集
+# 训练前请: python switch_labelset.py use-obb
+# Segment 标签保存在 labels_seg/，权重在 runs/segment/
+# 0=red 1=green 2=blue 3=yellow 4=orange
+path: F:/wrs-main-competition/wrs/drivers/devices/realsense/block_images
+train: images/train
+val: images/val
+test: images/test
+nc: 5
+names: ['red', 'green', 'blue', 'yellow', 'orange']

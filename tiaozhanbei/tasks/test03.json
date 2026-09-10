@@ -1,0 +1,153 @@
+{
+    "task_id": "t001",
+    "action": "pick",
+    "object": "机器工具-钻头批头",
+    "destination": "收纳盒",
+    "retry": 0,
+    "max_retry": 3,
+    "status": "valid",
+    "reason": "",
+    "original_cmd": "",
+    "dest_coordinate": [
+      0.3,
+      -0.2,
+      0.0
+    ],
+    "slot_id": null,
+    "coordinate": [
+      -0.1501107594040425,
+      -0.16167525204605646,
+      0.0
+    ],
+    "angle": 1.889662821455866,
+    "rpy": [
+      0.0,
+      0.0,
+      1.889662821455866
+    ],
+    "tasks": [
+      {
+        "task_id": "t000",
+        "step": 1,
+        "action": "perceive",
+        "object": "机器工具-钻头批头",
+        "coordinate": [
+          -0.1501107594040425,
+          -0.16167525204605646,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 1.889662821455866,
+        "rpy": [
+          0.0,
+          0.0,
+          1.889662821455866
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "识别场景目标并定位最优取物点",
+        "original_cmd": ""
+      },
+      {
+        "task_id": "t001",
+        "step": 2,
+        "action": "pick",
+        "object": "机器工具-钻头批头",
+        "coordinate": [
+          -0.1501107594040425,
+          -0.16167525204605646,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 1.889662821455866,
+        "rpy": [
+          0.0,
+          0.0,
+          1.889662821455866
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "",
+        "original_cmd": ""
+      },
+      {
+        "task_id": "t002",
+        "step": 3,
+        "action": "move",
+        "object": "机器工具-钻头批头",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 1.889662821455866,
+        "rpy": [
+          0.0,
+          0.0,
+          1.889662821455866
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "携带零件移动至放置目标上方",
+        "original_cmd": ""
+      },
+      {
+        "task_id": "t003",
+        "step": 4,
+        "action": "place",
+        "object": "机器工具-钻头批头",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 1.889662821455866,
+        "rpy": [
+          0.0,
+          0.0,
+          1.889662821455866
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "",
+        "original_cmd": "",
+        "on_fail": {
+          "action": "retry_place",
+          "max_retry": 3,
+          "reason": "若摆放失败则重新感知并重试放置"
+        }
+      }
+    ],
+    "task_sequence_desc": [
+      "1.perceive 识别定位目标",
+      "2.pick 抓取目标零件",
+      "3.move 移动至放置点",
+      "4.place 放入收纳盒/料箱格子（失败可 retry_place）"
+    ]
+  }

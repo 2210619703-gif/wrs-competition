@@ -1,0 +1,8 @@
+# YOLO-Segment 数据集（先运行 labelme_json_to_seg.py --inplace）
+# 0=red 1=green 2=blue 3=yellow 4=orange
+path: F:/wrs-main-competition/wrs/drivers/devices/realsense/block_images
+train: images/train
+val: images/val
+test: images/test
+nc: 5
+names: ['red', 'green', 'blue', 'yellow', 'orange']

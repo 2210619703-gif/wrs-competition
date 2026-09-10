@@ -1,0 +1,377 @@
+{
+  "image": "0001.jpg",
+  "width": 1280,
+  "height": 720,
+  "objects": [
+    {
+      "id": 1,
+      "class": "轴承-凸轮滚轮",
+      "bbox": [
+        693,
+        228,
+        829,
+        355
+      ],
+      "polygon": [
+        [
+          698,
+          255
+        ],
+        [
+          694,
+          329
+        ],
+        [
+          708,
+          342
+        ],
+        [
+          767,
+          355
+        ],
+        [
+          802,
+          348
+        ],
+        [
+          821,
+          332
+        ],
+        [
+          829,
+          274
+        ],
+        [
+          819,
+          253
+        ],
+        [
+          783,
+          238
+        ],
+        [
+          730,
+          238
+        ]
+      ],
+      "mask_path": "masks/0001_01.png",
+      "pose_6d": {
+        "x": 0.048095251206377476,
+        "y": 0.12118119021786633,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 0.5864825917782165
+      },
+      "visible_pixels": 13815,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Bearings\\Bearings (ball, roller, needle, etc.)\\Cam rollers\\Cam rollers1.stl",
+      "state": "normal",
+      "score": 0.9890256524085999,
+      "pointcloud_path": "pointclouds/0001_01.ply"
+    },
+    {
+      "id": 2,
+      "class": "机器工具-螺丝刀",
+      "bbox": [
+        339,
+        404,
+        563,
+        520
+      ],
+      "polygon": [
+        [
+          350,
+          407
+        ],
+        [
+          427,
+          447
+        ],
+        [
+          438,
+          462
+        ],
+        [
+          472,
+          475
+        ],
+        [
+          498,
+          496
+        ],
+        [
+          551,
+          507
+        ],
+        [
+          563,
+          496
+        ],
+        [
+          557,
+          478
+        ],
+        [
+          513,
+          454
+        ],
+        [
+          451,
+          435
+        ],
+        [
+          435,
+          439
+        ]
+      ],
+      "mask_path": "masks/0001_02.png",
+      "pose_6d": {
+        "x": -0.009847991972411596,
+        "y": -0.1962135164146941,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 0.009073397897449986
+      },
+      "visible_pixels": 5566,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Machines & Tools\\Mechanical tools\\Screwdrivers\\Screwdrivers2.stl",
+      "state": "normal",
+      "score": 0.9851661324501038,
+      "pointcloud_path": "pointclouds/0001_02.ply"
+    },
+    {
+      "id": 3,
+      "class": "螺钉螺栓-圆柱头螺栓",
+      "bbox": [
+        590,
+        114,
+        608,
+        206
+      ],
+      "polygon": [
+        [
+          593,
+          131
+        ],
+        [
+          592,
+          212
+        ],
+        [
+          595,
+          215
+        ],
+        [
+          604,
+          215
+        ],
+        [
+          607,
+          212
+        ],
+        [
+          603,
+          184
+        ],
+        [
+          607,
+          137
+        ],
+        [
+          602,
+          131
+        ]
+      ],
+      "mask_path": "masks/0001_03.png",
+      "pose_6d": {
+        "x": -0.24066036649289857,
+        "y": 0.2744893165559583,
+        "z": 0.0,
+        "roll": 1.5707963267948966,
+        "pitch": 0.0,
+        "yaw": 5.299273119504765
+      },
+      "visible_pixels": 1161,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Screws and bolts\\bolts\\Cylindrical head bolts\\Cylindrical head bolts1.stl",
+      "state": "fallen",
+      "score": 0.8661715388298035,
+      "pointcloud_path": "pointclouds/0001_03.ply"
+    },
+    {
+      "id": 4,
+      "class": "螺母-焊接螺母",
+      "bbox": [
+        436,
+        259,
+        454,
+        277
+      ],
+      "polygon": [
+        [
+          439,
+          266
+        ],
+        [
+          438,
+          267
+        ],
+        [
+          438,
+          280
+        ],
+        [
+          440,
+          280
+        ],
+        [
+          442,
+          282
+        ],
+        [
+          447,
+          282
+        ],
+        [
+          449,
+          280
+        ],
+        [
+          451,
+          280
+        ],
+        [
+          453,
+          278
+        ],
+        [
+          453,
+          270
+        ],
+        [
+          450,
+          270
+        ],
+        [
+          449,
+          268
+        ],
+        [
+          446,
+          266
+        ]
+      ],
+      "mask_path": "masks/0001_04.png",
+      "pose_6d": {
+        "x": -0.27181021343280154,
+        "y": 0.05563015453790854,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 6.2079058431773655
+      },
+      "visible_pixels": 229,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Nuts\\Weld nuts\\Weld nuts1.stl",
+      "state": "normal",
+      "score": 0.8348421454429626,
+      "pointcloud_path": "pointclouds/0001_04.ply"
+    }
+  ],
+  "camera": {
+    "position": [
+      0.6499999761581421,
+      -0.949999988079071,
+      0.75
+    ],
+    "rotmat": [
+      [
+        0.8253072500228882,
+        -0.4787442088127136,
+        -0.29945263266563416
+      ],
+      [
+        0.5646839141845703,
+        0.6997030973434448,
+        0.4376615285873413
+      ],
+      [
+        0.0,
+        -0.5303013324737549,
+        0.8478091955184937
+      ]
+    ],
+    "intrinsics": {
+      "fx": 1545.0966799187809,
+      "fy": 1545.096596981165,
+      "cx": 639.5,
+      "cy": 359.5
+    },
+    "near": 0.01,
+    "far": 5.0
+  },
+  "source": "yolo_seg",
+  "seed": 4200001,
+  "desk_stripe": {
+    "style": "diag_soft",
+    "texture_path": "F:\\wrs-main-competition\\tiaozhanbei\\textures\\desk_stripes\\diag_soft_512.png"
+  },
+  "part_paths": [
+    "Bearings/Bearings (ball, roller, needle, etc.)/Cam rollers/Cam rollers1.stl",
+    "Machines & Tools/Mechanical tools/Screwdrivers/Screwdrivers2.stl",
+    "Nuts/Weld nuts/Weld nuts1.stl",
+    "Screws and bolts/bolts/Cylindrical head bolts/Cylindrical head bolts1.stl"
+  ],
+  "scene_layout": {
+    "coordinate_frame": "desk_z0_robot_base_origin",
+    "robot": {
+      "base_pos_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "keep_out_radius_m": 0.14,
+      "rendered_in_dataset": false
+    },
+    "storage_box": {
+      "pos_m": [
+        0.3,
+        -0.2,
+        0.0
+      ],
+      "size_outer_m": [
+        0.3,
+        0.24,
+        0.12
+      ],
+      "wall_thickness_m": 0.008,
+      "clearance_m": 0.04,
+      "keepout_xy_min_m": [
+        0.10999999999999999,
+        -0.36
+      ],
+      "keepout_xy_max_m": [
+        0.49,
+        -0.04000000000000001
+      ],
+      "place_tcp_z_m": 0.1,
+      "rendered_in_dataset": false,
+      "note": "采集图不渲染；后续 pick-place 仿真按此固定坐标生成盒子"
+    },
+    "part_spawn": {
+      "xy_min_m": [
+        -0.28,
+        -0.28
+      ],
+      "xy_max_m": [
+        0.12,
+        0.28
+      ],
+      "min_center_dist_m": 0.09,
+      "avoids": [
+        "robot_keepout",
+        "storage_box_keepout"
+      ]
+    }
+  },
+  "n_parts": 4,
+  "manifest_round": 1
+}

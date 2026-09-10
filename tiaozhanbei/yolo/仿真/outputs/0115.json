@@ -1,0 +1,525 @@
+{
+  "image": "0115.jpg",
+  "width": 1280,
+  "height": 720,
+  "objects": [
+    {
+      "id": 1,
+      "class": "螺钉螺栓-圆头螺栓",
+      "bbox": [
+        456,
+        242,
+        524,
+        303
+      ],
+      "polygon": [
+        [
+          460,
+          244
+        ],
+        [
+          458,
+          246
+        ],
+        [
+          458,
+          258
+        ],
+        [
+          460,
+          260
+        ],
+        [
+          462,
+          260
+        ],
+        [
+          464,
+          262
+        ],
+        [
+          468,
+          262
+        ],
+        [
+          470,
+          264
+        ],
+        [
+          472,
+          264
+        ],
+        [
+          478,
+          270
+        ],
+        [
+          480,
+          270
+        ],
+        [
+          488,
+          278
+        ],
+        [
+          490,
+          278
+        ],
+        [
+          498,
+          286
+        ],
+        [
+          498,
+          288
+        ],
+        [
+          502,
+          292
+        ],
+        [
+          502,
+          294
+        ],
+        [
+          504,
+          296
+        ],
+        [
+          504,
+          298
+        ],
+        [
+          506,
+          300
+        ],
+        [
+          516,
+          300
+        ],
+        [
+          518,
+          298
+        ],
+        [
+          518,
+          296
+        ],
+        [
+          522,
+          292
+        ],
+        [
+          522,
+          284
+        ],
+        [
+          520,
+          282
+        ],
+        [
+          518,
+          282
+        ],
+        [
+          516,
+          280
+        ],
+        [
+          510,
+          280
+        ],
+        [
+          508,
+          278
+        ],
+        [
+          506,
+          278
+        ],
+        [
+          504,
+          276
+        ],
+        [
+          502,
+          276
+        ],
+        [
+          498,
+          272
+        ],
+        [
+          496,
+          272
+        ],
+        [
+          486,
+          262
+        ],
+        [
+          484,
+          262
+        ],
+        [
+          478,
+          256
+        ],
+        [
+          478,
+          254
+        ],
+        [
+          468,
+          244
+        ]
+      ],
+      "mask_path": "masks/0115_01.png",
+      "pose_6d": {
+        "x": -0.22234718372890416,
+        "y": 0.06806558190505063,
+        "z": 0.0,
+        "roll": 1.5707963267948966,
+        "pitch": 0.0,
+        "yaw": 5.917829009430115
+      },
+      "visible_pixels": 1108,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Screws and bolts\\bolts\\Round head bolts\\Round head bolts1.stl",
+      "state": "fallen",
+      "score": 0.9714713096618652,
+      "pointcloud_path": "pointclouds/0115_01.ply"
+    },
+    {
+      "id": 2,
+      "class": "滚子轴承-调心滚子轴承",
+      "bbox": [
+        487,
+        207,
+        546,
+        246
+      ],
+      "polygon": [
+        [
+          498,
+          208
+        ],
+        [
+          496,
+          210
+        ],
+        [
+          494,
+          210
+        ],
+        [
+          490,
+          214
+        ],
+        [
+          488,
+          214
+        ],
+        [
+          488,
+          236
+        ],
+        [
+          492,
+          240
+        ],
+        [
+          494,
+          240
+        ],
+        [
+          498,
+          244
+        ],
+        [
+          528,
+          244
+        ],
+        [
+          530,
+          242
+        ],
+        [
+          532,
+          242
+        ],
+        [
+          534,
+          240
+        ],
+        [
+          538,
+          240
+        ],
+        [
+          544,
+          234
+        ],
+        [
+          544,
+          218
+        ],
+        [
+          542,
+          216
+        ],
+        [
+          542,
+          214
+        ],
+        [
+          538,
+          210
+        ],
+        [
+          536,
+          210
+        ],
+        [
+          534,
+          208
+        ]
+      ],
+      "mask_path": "masks/0115_02.png",
+      "pose_6d": {
+        "x": -0.2597969295385063,
+        "y": 0.15382913404879806,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 0.5828242670961477
+      },
+      "visible_pixels": 1839,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Roller bearings\\Spherical roller bearings\\Spherical roller bearings1.stl",
+      "state": "normal",
+      "score": 0.7042281031608582,
+      "pointcloud_path": "pointclouds/0115_02.ply"
+    },
+    {
+      "id": 3,
+      "class": "螺钉螺栓-石膏板喇叭头螺丝",
+      "bbox": [
+        444,
+        364,
+        453,
+        380
+      ],
+      "polygon": [
+        [
+          448,
+          368
+        ],
+        [
+          446,
+          370
+        ],
+        [
+          446,
+          374
+        ],
+        [
+          448,
+          376
+        ],
+        [
+          448,
+          378
+        ],
+        [
+          452,
+          378
+        ],
+        [
+          452,
+          372
+        ],
+        [
+          450,
+          370
+        ],
+        [
+          450,
+          368
+        ]
+      ],
+      "mask_path": "masks/0115_03.png",
+      "pose_6d": {
+        "x": -0.14851927309180402,
+        "y": -0.08420536608547247,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 5.349066327449071
+      },
+      "visible_pixels": 68,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Rivets\\Snap rivets\\Snap rivets1.stl",
+      "state": "normal",
+      "score": 0.4635692238807678,
+      "pointcloud_path": "pointclouds/0115_03.ply"
+    },
+    {
+      "id": 4,
+      "class": "铆钉-按扣铆钉",
+      "bbox": [
+        444,
+        364,
+        453,
+        380
+      ],
+      "polygon": [
+        [
+          448,
+          368
+        ],
+        [
+          446,
+          370
+        ],
+        [
+          446,
+          374
+        ],
+        [
+          448,
+          376
+        ],
+        [
+          448,
+          378
+        ],
+        [
+          452,
+          378
+        ],
+        [
+          452,
+          372
+        ],
+        [
+          450,
+          370
+        ],
+        [
+          450,
+          368
+        ]
+      ],
+      "mask_path": "masks/0115_04.png",
+      "pose_6d": {
+        "x": -0.14851927309180402,
+        "y": -0.08420536608547247,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 5.349066327449071
+      },
+      "visible_pixels": 68,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Rivets\\Snap rivets\\Snap rivets1.stl",
+      "state": "normal",
+      "score": 0.3585751950740814,
+      "pointcloud_path": "pointclouds/0115_04.ply"
+    }
+  ],
+  "camera": {
+    "position": [
+      0.6499999761581421,
+      -0.949999988079071,
+      0.75
+    ],
+    "rotmat": [
+      [
+        0.8253072500228882,
+        -0.4787442088127136,
+        -0.29945263266563416
+      ],
+      [
+        0.5646839141845703,
+        0.6997030973434448,
+        0.4376615285873413
+      ],
+      [
+        0.0,
+        -0.5303013324737549,
+        0.8478091955184937
+      ]
+    ],
+    "intrinsics": {
+      "fx": 1545.0966799187809,
+      "fy": 1545.096596981165,
+      "cx": 639.5,
+      "cy": 359.5
+    },
+    "near": 0.01,
+    "far": 5.0
+  },
+  "source": "yolo_seg",
+  "seed": 60000115,
+  "desk_stripe": {
+    "style": "dots_cool",
+    "texture_path": "F:\\wrs-main-competition\\tiaozhanbei\\textures\\desk_stripes\\dots_cool_512.png"
+  },
+  "part_paths": [
+    "Rivets/Snap rivets/Snap rivets1.stl",
+    "Roller bearings/Spherical roller bearings/Spherical roller bearings1.stl",
+    "Screws and bolts/bolts/Round head bolts/Round head bolts1.stl",
+    "Washers/Cup washers/Cup washers1.stl"
+  ],
+  "scene_layout": {
+    "coordinate_frame": "desk_z0_robot_base_origin",
+    "robot": {
+      "base_pos_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "keep_out_radius_m": 0.14,
+      "rendered_in_dataset": false
+    },
+    "storage_box": {
+      "pos_m": [
+        0.3,
+        -0.2,
+        0.0
+      ],
+      "size_outer_m": [
+        0.3,
+        0.24,
+        0.12
+      ],
+      "wall_thickness_m": 0.008,
+      "clearance_m": 0.04,
+      "keepout_xy_min_m": [
+        0.10999999999999999,
+        -0.36
+      ],
+      "keepout_xy_max_m": [
+        0.49,
+        -0.04000000000000001
+      ],
+      "place_tcp_z_m": 0.1,
+      "rendered_in_dataset": false,
+      "note": "采集图不渲染；后续 pick-place 仿真按此固定坐标生成盒子"
+    },
+    "part_spawn": {
+      "xy_min_m": [
+        -0.28,
+        -0.28
+      ],
+      "xy_max_m": [
+        0.12,
+        0.28
+      ],
+      "min_center_dist_m": 0.09,
+      "avoids": [
+        "robot_keepout",
+        "storage_box_keepout"
+      ]
+    }
+  },
+  "n_parts": 4,
+  "manifest_round": 8
+}

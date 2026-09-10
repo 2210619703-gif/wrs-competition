@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF follows the same SolidWorks-to-URDF export format as LRMate-200iD.urdf.
+     Kinematics, joint limits and inertials are taken from the official FANUC ROS2
+     description package (FANUC-CORPORATION/fanuc_description, er4ia, Apache-2.0).
+     Max reach = 0.26 + 0.29 = 0.55 m (ER-4iA / LR Mate 200iD-4S). -->
+<robot
+  name="ER-4iA">
+  <link
+    name="Base">
+    <inertial>
+      <origin
+        xyz="-0.0281 0.00396 0.0799"
+        rpy="0 0 0" />
+      <mass
+        value="5.15" />
+      <inertia
+        ixx="0.0219"
+        ixy="-0.00106"
+        ixz="-0.000067"
+        iyy="0.0301"
+        iyz="0.0000847"
+        izz="0.0295" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/base.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/base.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="J1">
+    <inertial>
+      <origin
+        xyz="0.00151 0.000041 -0.0578"
+        rpy="0 0 0" />
+      <mass
+        value="4.17" />
+      <inertia
+        ixx="0.0252"
+        ixy="-0.00000663"
+        ixz="0.000264"
+        iyy="0.019"
+        iyz="0.0000011"
+        izz="0.0162" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j1.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95 0.85 0.0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j1.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.33"
+      rpy="0 0 0" />
+    <parent
+      link="Base" />
+    <child
+      link="J1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.9671"
+      upper="2.9671"
+      effort="400"
+      velocity="8.0285" />
+  </joint>
+  <link
+    name="J2">
+    <inertial>
+      <origin
+        xyz="-0.00721 -0.000956 0.13"
+        rpy="0 0 0" />
+      <mass
+        value="6.67" />
+      <inertia
+        ixx="0.0769"
+        ixy="0.0000572"
+        ixz="-0.000476"
+        iyy="0.0672"
+        iyz="-0.000635"
+        izz="0.0252" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j2.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95 0.85 0.0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j2.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J2"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="J1" />
+    <child
+      link="J2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.9199"
+      upper="2.0944"
+      effort="300"
+      velocity="6.2832" />
+  </joint>
+  <link
+    name="J3">
+    <inertial>
+      <origin
+        xyz="-0.00781 -0.00446 -0.00000291"
+        rpy="0 0 0" />
+      <mass
+        value="1.66" />
+      <inertia
+        ixx="0.00369"
+        ixy="0.000000468"
+        ixz="-0.000423"
+        iyy="0.00425"
+        iyz="-0.0000116"
+        izz="0.00414" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j3.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95 0.85 0.0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j3.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J3"
+    type="revolute">
+    <origin
+      xyz="0 0 0.26"
+      rpy="0 0 0" />
+    <parent
+      link="J2" />
+    <child
+      link="J3" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-1.2043"
+      upper="3.5779"
+      effort="200"
+      velocity="9.0757" />
+  </joint>
+  <link
+    name="J4">
+    <inertial>
+      <origin
+        xyz="0.187 0.00165 0.00184"
+        rpy="0 0 0" />
+      <mass
+        value="1.95" />
+      <inertia
+        ixx="0.00266"
+        ixy="0.00000358"
+        ixz="0.0000703"
+        iyy="0.0115"
+        iyz="-0.0000074"
+        izz="0.0116" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j4.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95 0.85 0.0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j4.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J4"
+    type="revolute">
+    <origin
+      xyz="0 0 0.02"
+      rpy="0 0 0" />
+    <parent
+      link="J3" />
+    <child
+      link="J4" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3.3161"
+      upper="3.3161"
+      effort="50"
+      velocity="9.7738" />
+  </joint>
+  <link
+    name="J5">
+    <inertial>
+      <origin
+        xyz="0.0172 0.000903 -0.00000423"
+        rpy="0 0 0" />
+      <mass
+        value="0.39" />
+      <inertia
+        ixx="0.000268"
+        ixy="0.00000599"
+        ixz="-0.0000000104"
+        iyy="0.000453"
+        iyz="-0.0000000172"
+        izz="0.000425" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j5.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95 0.85 0.0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j5.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J5"
+    type="revolute">
+    <origin
+      xyz="0.29 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="J4" />
+    <child
+      link="J5" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-2.0944"
+      upper="2.0944"
+      effort="30"
+      velocity="9.7738" />
+  </joint>
+  <link
+    name="J6">
+    <inertial>
+      <origin
+        xyz="0.069 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.0138" />
+      <inertia
+        ixx="0.00000274"
+        ixy="0"
+        ixz="0"
+        iyy="0.00000153"
+        iyz="0"
+        izz="0.00000153" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j6.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ER-4iA/meshes/j6.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J6"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="J5" />
+    <child
+      link="J6" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-6.2832"
+      upper="6.2832"
+      effort="20"
+      velocity="15.708" />
+  </joint>
+</robot>

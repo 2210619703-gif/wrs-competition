@@ -1,0 +1,16 @@
+# 真机执行模块（tiaozhanbei/real）依赖
+#
+# 本目录自身只用标准库，下面这些是被调用方需要的：
+#
+# 1) fafu SDK（fafu_arm_sdk-main/fafu_robot_python）运行期依赖
+numpy>=1.19
+#
+# 2) 编译好的 fafu_motor 扩展（fafu_motor.cp310-win_amd64.pyd 之类）随 SDK 提供，
+#    不通过 pip 安装。解释器版本必须和 .pyd 的 cpXY 标签一致，
+#    用 check_offline.py 确认。
+#
+# 3) 规划阶段走 tiaozhanbei/sim 的仿真环境（wrs / panda3d 等），
+#    用仓库原有环境即可，本目录不重复声明。
+#
+# 可选：pinocchio —— 只有要用 SDK 的 move_p / move_l / FK / IK 才需要。
+#      本模块走关节空间轨迹回放，用不到。

@@ -1,0 +1,82 @@
+/venv/
+/.idea/
+*.pyc
+*.pkl
+*.jpg
+*.stl
+*.STL
+.venv/
+.vscode/
+__pycache__/
+*.pyo
+*.pyd
+.DS_Store
+*.dll
+*.so
+*.dae
+
+# --- 训练权重与模型文件 (避免上传，因为通常很大) ---
+# 如果你需要上传某个特定的模型，可以在前面加 ! (例如 !model.pt)
+#*.pkl
+*.safetensors
+*.h5
+*.pt
+*.pth
+*.onnx
+*.weights
+*.bin
+
+# --- 临时数据与日志 ---
+*.log
+*.tmp
+*.temp
+*.swp
+
+# --- 图片与文档 ---
+# 如果你想上传模型配套的图片，请注释掉下面这两行
+# *.jpg
+# *.png
+*.pdf
+*.zip
+*.tar.gz
+
+# --- 项目特定路径 (根据你之前的配置保留) ---
+# 这些路径下的文件将不会被 Git 跟踪
+wrs/robot_con/piper/policy/sem/ckpt/
+#wrs/robot_sim/_data_files/
+wrs/robot_con/piper/policy/sem/model/
+wrs/robot_con/piper/policy/sem1/
+wrs/robot_con/piper/policy/test/
+wrs/robot_con/piper/lerobot_robot_piper/
+wrs/robot_con/piper/policy/sem/workspace/
+# *.json
+# *.yaml# Local training / capture artifacts (do not push)
+runs/
+blocks_dataset/
+blocks_sim_dataset/
+build/
+install/
+log/
+wrs/drivers/devices/realsense/block_images/images/
+wrs/drivers/devices/realsense/block_images/labels/
+wrs/drivers/devices/realsense/block_images/labels_*/
+wrs/drivers/devices/realsense/block_images/labelme*/
+wrs/drivers/devices/realsense/block_images/*.cache
+ScreenCamera_*.json
+ScreenCapture_*.png
+wrs/drivers/devices/realsense/ScreenCamera_*.json
+wrs/drivers/devices/realsense/ScreenCapture_*.png
+pick_multi_block/dataset/
+
+# runs/ is ignored; commit selected weights with: git add -f path/to/best.pt
+
+# Allow YOLO handoff sample predictions
+!competition/yolo_delivery_samples/*.jpg
+
+
+# Gitee ������ƣ�ȫ��ͼ/���Ʋ����
+tiaozhanbei/yolo/ʵ��/dataset/
+tiaozhanbei/yolo/����/outputs/
+tiaozhanbei/yolo/����/sim_dataset/
+**/*.ply
+**/*.npy

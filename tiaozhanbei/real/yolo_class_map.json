@@ -1,0 +1,576 @@
+{
+  "note": "YOLO 英文类名 → 仿真中文类名 + STL。由 build_class_map.py 生成，可手改。",
+  "weights": "real_multi.pt",
+  "part_model_root": "F:/wrs-main-competition/tiaozhanbei/Part_Model",
+  "classes": {
+    "acorn_nuts": {
+      "zh": "螺母-盖形螺母",
+      "stl_dir": "Nuts/Acorn nuts",
+      "stl": "Acorn nuts1.stl"
+    },
+    "anchor_bolts": {
+      "zh": "螺钉螺栓-地脚螺栓",
+      "stl_dir": "Screws and bolts/bolts/Anchor Bolts",
+      "stl": "Anchor Bolts1.stl"
+    },
+    "angular_contact_ball_bearings": {
+      "zh": "轴承-角接触球轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Ball bearings/Angular contact ball bearings",
+      "stl": "Angular contact ball bearings1.stl"
+    },
+    "angular_contact_roller_bearings": {
+      "zh": "滚子轴承-角接触滚子轴承",
+      "stl_dir": "Roller bearings/Angular contact roller bearings",
+      "stl": "Angular contact roller bearings1.stl"
+    },
+    "arm_nuts": {
+      "zh": "螺母-手柄螺母",
+      "stl_dir": "Nuts/Arm nuts",
+      "stl": "Arm nuts1.stl"
+    },
+    "barrel_nuts": {
+      "zh": "螺母-筒形螺母",
+      "stl_dir": "Nuts/Barrel nuts",
+      "stl": "Barrel nuts1.stl"
+    },
+    "binding_screws": {
+      "zh": "螺钉螺栓-装订螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Binding screws",
+      "stl": "Binding screws1.stl"
+    },
+    "binding_tapping_screws": {
+      "zh": "螺钉螺栓-装订自攻螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Tapping screws/Binding tapping screws",
+      "stl": "Binding tapping screws1.stl"
+    },
+    "bits": {
+      "zh": "机器工具-钻头批头",
+      "stl_dir": "Machines & Tools/Mechanical tools/Bits",
+      "stl": "Bits1.stl"
+    },
+    "blind_rivets": {
+      "zh": "铆钉-抽芯铆钉",
+      "stl_dir": "Rivets/Blind rivets",
+      "stl": "Blind rivets1.stl"
+    },
+    "brake_lining_clutch_facing_rivets": {
+      "zh": "铆钉-制动离合器铆钉",
+      "stl_dir": "Rivets/Brake lining  Clutch facing rivets",
+      "stl": "Brake lining  Clutch facing rivets1.stl"
+    },
+    "brushes": {
+      "zh": "机器工具-刷子",
+      "stl_dir": "Machines & Tools/Mechanical tools/Brushes",
+      "stl": "Brushes1.stl"
+    },
+    "bugle_screws": {
+      "zh": "螺钉螺栓-喇叭头螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Bugle screws",
+      "stl": "Bugle screws1.stl"
+    },
+    "button_screws": {
+      "zh": "螺钉螺栓-圆头螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Button screws",
+      "stl": "Button screws1.stl"
+    },
+    "button_tapping_screws": {
+      "zh": "螺钉螺栓-圆头自攻螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Tapping screws/Button tapping screws",
+      "stl": "Button tapping screws1.stl"
+    },
+    "cam_rollers": {
+      "zh": "轴承-凸轮滚轮",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Cam rollers",
+      "stl": "Cam rollers1.stl"
+    },
+    "cheese_tapping_screws": {
+      "zh": "螺钉螺栓-圆柱头自攻螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Tapping screws/Cheese tapping screws",
+      "stl": "Cheese tapping screws1.stl"
+    },
+    "combined_bearings": {
+      "zh": "轴承-组合轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Combined bearings",
+      "stl": "Combined bearings1.stl"
+    },
+    "compression_rivets": {
+      "zh": "铆钉-压缩铆钉",
+      "stl_dir": "Rivets/Compression rivets",
+      "stl": "Compression rivets1.stl"
+    },
+    "cone_point_set_screws": {
+      "zh": "螺钉螺栓-尖端紧定螺丝",
+      "stl_dir": "Screws and bolts/Set screws/Cone point set screws",
+      "stl": "Cone point set screws1.stl"
+    },
+    "countersunk_head_bolts": {
+      "zh": "螺钉螺栓-沉头螺栓",
+      "stl_dir": "Screws and bolts/bolts/Countersunk head bolts",
+      "stl": "Countersunk head bolts1.stl"
+    },
+    "countersunk_or_flat_screws": {
+      "zh": "螺钉螺栓-沉头螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Countersunk or flat screws",
+      "stl": "Countersunk or flat screws1.stl"
+    },
+    "countersunk_or_flat_tapping_screws": {
+      "zh": "螺钉螺栓-沉头自攻螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Tapping screws/Countersunk or flat tapping screws",
+      "stl": "Countersunk or flat tapping screws1.stl"
+    },
+    "countersunk_washers": {
+      "zh": "垫圈-沉头垫圈",
+      "stl_dir": "Washers/Countersunk washers",
+      "stl": "Countersunk washers1.stl"
+    },
+    "crimp_nuts": {
+      "zh": "螺母-压接螺母",
+      "stl_dir": "Nuts/Crimp Nuts",
+      "stl": "Crimp Nuts1.stl"
+    },
+    "cup_point_set_screws": {
+      "zh": "螺钉螺栓-凹端紧定螺丝",
+      "stl_dir": "Screws and bolts/Set screws/Cup point set screws",
+      "stl": "Cup point set screws1.stl"
+    },
+    "cup_washers": {
+      "zh": "垫圈-杯形垫圈",
+      "stl_dir": "Washers/Cup washers",
+      "stl": "Cup washers1.stl"
+    },
+    "cutting": {
+      "zh": "机器工具-切削工具",
+      "stl_dir": "Machines & Tools/Mechanical tools/Cutting",
+      "stl": "Cutting1.stl"
+    },
+    "cylindrical_head_bolts1": {
+      "zh": "螺钉螺栓-圆柱头螺栓",
+      "stl_dir": "Screws and bolts/bolts/Cylindrical head bolts",
+      "stl": "Cylindrical head bolts1.stl"
+    },
+    "cylindrical_roller_bearings": {
+      "zh": "滚子轴承-圆柱滚子轴承",
+      "stl_dir": "Roller bearings/Cylindrical roller bearings",
+      "stl": "Cylindrical roller bearings1.stl"
+    },
+    "deep_groove_ball_bearings": {
+      "zh": "轴承-深沟球轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Ball bearings/Deep groove ball bearings",
+      "stl": "Deep groove ball bearings1.stl"
+    },
+    "dog_point_set_screws": {
+      "zh": "螺钉螺栓-圆柱端紧定螺丝",
+      "stl_dir": "Screws and bolts/Set screws/Dog point set screws",
+      "stl": "Dog point set screws1.stl"
+    },
+    "drywall_bugle_screws": {
+      "zh": "螺钉螺栓-石膏板喇叭头螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Drywall screws/Drywall bugle screws",
+      "stl": "Drywall bugle screws1.stl"
+    },
+    "drywall_button_screws": {
+      "zh": "螺钉螺栓-石膏板圆头螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Drywall screws/Drywall button screws",
+      "stl": "Drywall button screws1.stl"
+    },
+    "drywall_various_screws": {
+      "zh": "螺钉螺栓-石膏板螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Drywall screws/Drywall various screws",
+      "stl": "Drywall various screws1.stl"
+    },
+    "drywall_washer_screws": {
+      "zh": "螺钉螺栓-石膏板垫圈螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Drywall screws/Drywall washer screws",
+      "stl": "Drywall washer screws1.stl"
+    },
+    "eye_screws": {
+      "zh": "螺钉螺栓-吊环螺丝",
+      "stl_dir": "Screws and bolts/Eye screws",
+      "stl": "Eye screws1.stl"
+    },
+    "fender_washers": {
+      "zh": "垫圈-加大垫圈",
+      "stl_dir": "Washers/Fender washers",
+      "stl": "Fender washers1.stl"
+    },
+    "fillister_screws": {
+      "zh": "螺钉螺栓-圆柱头螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Fillister screws",
+      "stl": "Fillister screws1.stl"
+    },
+    "fillister_tapping_screws": {
+      "zh": "螺钉螺栓-圆柱头自攻螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Tapping screws/Fillister tapping screws",
+      "stl": "Fillister tapping screws1.stl"
+    },
+    "flange_nuts": {
+      "zh": "螺母-法兰螺母",
+      "stl_dir": "Nuts/Flange nuts",
+      "stl": "Flange nuts1.stl"
+    },
+    "flat_point_set_screws": {
+      "zh": "螺钉螺栓-平端紧定螺丝",
+      "stl_dir": "Screws and bolts/Set screws/Flat point set screws",
+      "stl": "Flat point set screws.stl"
+    },
+    "four_point_contact_balls_bearings": {
+      "zh": "轴承-四点接触球轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Ball bearings/Four point contact balls bearings",
+      "stl": "Four point contact balls bearings1.stl"
+    },
+    "g_nuts": {
+      "zh": "螺母-G型螺母",
+      "stl_dir": "Nuts/Clip-on nuts (Sheet metal or speed nuts)/G-nuts",
+      "stl": "G-nuts1.stl"
+    },
+    "hammers": {
+      "zh": "机器工具-锤子",
+      "stl_dir": "Machines & Tools/Mechanical tools/Hammers",
+      "stl": "Hammers1.stl"
+    },
+    "hex_head_bolts1": {
+      "zh": "螺钉螺栓-六角头螺栓",
+      "stl_dir": "Screws and bolts/bolts/Hex head bolts",
+      "stl": "Hex head bolts1.stl"
+    },
+    "hex_nuts": {
+      "zh": "螺母-六角螺母",
+      "stl_dir": "Nuts/Hex nuts",
+      "stl": "Hex nuts1.stl"
+    },
+    "hexagonal_screws": {
+      "zh": "螺钉螺栓-六角螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Hexagonal screws",
+      "stl": "Hexagonal screws1.stl"
+    },
+    "hexagonal_tapping_screws": {
+      "zh": "螺钉螺栓-六角自攻螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Tapping screws/Hexagonal tapping screws",
+      "stl": "Hexagonal tapping screws1.stl"
+    },
+    "insert_nuts": {
+      "zh": "螺母-嵌装螺母",
+      "stl_dir": "Nuts/Insert nuts",
+      "stl": "Insert nuts1.stl"
+    },
+    "journal_bearings": {
+      "zh": "轴承-滑动轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Journal bearings",
+      "stl": "Journal bearings1.stl"
+    },
+    "keys": {
+      "zh": "机器工具-键",
+      "stl_dir": "Machines & Tools/Mechanical tools/Keys",
+      "stl": "Keys1.stl"
+    },
+    "knurled_nuts": {
+      "zh": "螺母-滚花螺母",
+      "stl_dir": "Nuts/Knurled nuts",
+      "stl": "Knurled nuts1.stl"
+    },
+    "knurled_screws": {
+      "zh": "螺钉螺栓-滚花螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Knurled screws",
+      "stl": "Knurled screws1.stl"
+    },
+    "lock_washers": {
+      "zh": "垫圈-锁紧垫圈",
+      "stl_dir": "Washers/Lock washers",
+      "stl": "Lock washers1.stl"
+    },
+    "mushroom_or_truss_screws": {
+      "zh": "螺钉螺栓-蘑菇头螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Mushroom or truss screws",
+      "stl": "Mushroom or truss screws1.stl"
+    },
+    "mushroom_or_truss_tapping_screws": {
+      "zh": "螺钉螺栓-蘑菇头自攻螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Tapping screws/Mushroom or truss tapping screws",
+      "stl": "Mushroom or truss tapping screws1.stl"
+    },
+    "needle_bearings": {
+      "zh": "轴承-滚针轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Needle bearings",
+      "stl": "Needle bearings1.stl"
+    },
+    "nut": {
+      "zh": "螺母-六角螺母",
+      "stl_dir": "Nuts/Hex nuts",
+      "stl": "Hex nuts1.stl",
+      "approx": true
+    },
+    "oval_or_raised_screws": {
+      "zh": "螺钉螺栓-半沉头螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Oval or raised screws",
+      "stl": "Oval or raised screws1.stl"
+    },
+    "oval_or_raised_tapping_screws": {
+      "zh": "螺钉螺栓-半沉头自攻螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Tapping screws/Oval or raised tapping screws",
+      "stl": "Oval or raised tapping screws1.stl"
+    },
+    "plain_or_flat_washers": {
+      "zh": "垫圈-平垫圈",
+      "stl_dir": "Washers/Plain or flat washers",
+      "stl": "Plain or flat washers1.stl"
+    },
+    "plastic_cheese_head_screws": {
+      "zh": "螺钉螺栓-塑料圆柱头螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Plastic screws/Plastic cheese head screws",
+      "stl": "Plastic cheese head screws1.stl"
+    },
+    "plastic_countersunk_or_flat_screws": {
+      "zh": "螺钉螺栓-塑料沉头螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Plastic screws/Plastic countersunk or flat screws",
+      "stl": "Plastic countersunk or flat screws1.stl"
+    },
+    "plastic_countersunk_or_plastic_fillister_screws": {
+      "zh": "螺钉螺栓-塑料沉头螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Plastic screws/Plastic countersunk or flat screws",
+      "stl": "Plastic countersunk or flat screws1.stl",
+      "approx": true
+    },
+    "plastic_hexagonal_screws": {
+      "zh": "螺钉螺栓-塑料六角螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Plastic screws/Plastic hexagonal screws",
+      "stl": "Plastic hexagonal screws1.stl"
+    },
+    "plastic_knurled_screws": {
+      "zh": "螺钉螺栓-塑料滚花螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Plastic screws/Plastic knurled screws",
+      "stl": "Plastic knurled screws1.stl"
+    },
+    "plastic_socket_screws": {
+      "zh": "螺钉螺栓-塑料内六角螺丝",
+      "stl_dir": "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Plastic screws/Plastic socket screws",
+      "stl": "Plastic socket screws1.stl"
+    },
+    "pliers": {
+      "zh": "机器工具-钳子",
+      "stl_dir": "Machines & Tools/Mechanical tools/Pliers",
+      "stl": "Pliers1.stl"
+    },
+    "radial_insert_ball_bearings": {
+      "zh": "轴承-外球面球轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Ball bearings/Radial insert ball bearings",
+      "stl": "Radial insert ball bearings1.stl"
+    },
+    "ratchets_and_sockets": {
+      "zh": "机器工具-棘轮套筒",
+      "stl_dir": "Machines & Tools/Mechanical tools/Ratchets and sockets",
+      "stl": "Ratchets and sockets1.stl"
+    },
+    "rivet_nuts": {
+      "zh": "螺母-铆螺母",
+      "stl_dir": "Nuts/Rivet nuts",
+      "stl": "Rivet nuts1.stl"
+    },
+    "riveting": {
+      "zh": "机器工具-铆接工具",
+      "stl_dir": "Machines & Tools/Mechanical tools/Riveting",
+      "stl": "Riveting1.stl"
+    },
+    "rod_ends": {
+      "zh": "轴承-杆端关节轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Rod ends",
+      "stl": "Rod ends1.stl"
+    },
+    "roller_bearings": {
+      "zh": "轴承-滚子轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Roller bearings",
+      "stl": "Roller bearings1.stl"
+    },
+    "rotary_table_bearings": {
+      "zh": "轴承-转盘轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Rotary table bearings",
+      "stl": "Rotary table bearings1.stl"
+    },
+    "round_head_bolts1": {
+      "zh": "螺钉螺栓-圆头螺栓",
+      "stl_dir": "Screws and bolts/bolts/Round head bolts",
+      "stl": "Round head bolts1.stl"
+    },
+    "round_screws": {
+      "zh": "螺钉螺栓-圆头螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Round screws",
+      "stl": "Round screws1.stl"
+    },
+    "screw": {
+      "zh": "螺钉螺栓-六角螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Hexagonal screws",
+      "stl": "Hexagonal screws1.stl",
+      "approx": true
+    },
+    "screwdrivers": {
+      "zh": "机器工具-螺丝刀",
+      "stl_dir": "Machines & Tools/Mechanical tools/Screwdrivers",
+      "stl": "Screwdrivers1.stl"
+    },
+    "sealing_washers": {
+      "zh": "垫圈-密封垫圈",
+      "stl_dir": "Washers/Sealing washers",
+      "stl": "Sealing washers1.stl"
+    },
+    "self_aligning_ball_bearings": {
+      "zh": "轴承-调心球轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Ball bearings/Self aligning ball bearings",
+      "stl": "Self aligning ball bearings1.stl"
+    },
+    "self_locking_nuts": {
+      "zh": "螺母-自锁螺母",
+      "stl_dir": "Nuts/Self-locking nuts",
+      "stl": "Self-locking nuts1.stl"
+    },
+    "semi_tubular_rivets": {
+      "zh": "铆钉-半空心铆钉",
+      "stl_dir": "Rivets/Semi-tubular rivets",
+      "stl": "Semi-tubular rivets1.stl"
+    },
+    "shoulder_washers": {
+      "zh": "垫圈-台阶垫圈",
+      "stl_dir": "Washers/Shoulder washers",
+      "stl": "Shoulder washers1.stl"
+    },
+    "sleeves": {
+      "zh": "螺母-衬套",
+      "stl_dir": "Nuts/Sleeves",
+      "stl": "Sleeves1.stl"
+    },
+    "slewing_rings": {
+      "zh": "轴承-回转支承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Slewing rings",
+      "stl": "Slewing rings1.stl"
+    },
+    "slotted_washers": {
+      "zh": "垫圈-开口垫圈",
+      "stl_dir": "Washers/Slotted washers",
+      "stl": "Slotted washers1.stl"
+    },
+    "snap_rivets": {
+      "zh": "铆钉-按扣铆钉",
+      "stl_dir": "Rivets/Snap rivets",
+      "stl": "Snap rivets1.stl"
+    },
+    "socket_screws_socket_head_screws": {
+      "zh": "螺钉螺栓-内六角螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Socket screws, Socket head screws",
+      "stl": "Socket screws, Socket head screws1.stl"
+    },
+    "solid_rivets": {
+      "zh": "铆钉-实心铆钉",
+      "stl_dir": "Rivets/Solid rivets",
+      "stl": "Solid rivets1.stl"
+    },
+    "spherical_roller_bearings": {
+      "zh": "滚子轴承-调心滚子轴承",
+      "stl_dir": "Roller bearings/Spherical roller bearings",
+      "stl": "Spherical roller bearings1.stl"
+    },
+    "spherical_seat_washers": {
+      "zh": "垫圈-球面垫圈",
+      "stl_dir": "Washers/Spherical seat washers",
+      "stl": "Spherical seat washers1.stl"
+    },
+    "spindle_ball_bearings": {
+      "zh": "轴承-主轴球轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Ball bearings/Spindle ball bearings",
+      "stl": "Spindle ball bearings1.stl"
+    },
+    "spring_washers": {
+      "zh": "垫圈-弹簧垫圈",
+      "stl_dir": "Washers/Spring washers",
+      "stl": "Spring washers1.stl"
+    },
+    "spur_gears": {
+      "zh": "齿轮-直齿轮",
+      "stl_dir": "Gears/Spur gears",
+      "stl": "Spur gears1.stl"
+    },
+    "square_screws": {
+      "zh": "螺钉螺栓-方头螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Square screws",
+      "stl": "Square screws1.stl"
+    },
+    "square_style_nuts": {
+      "zh": "螺母-方形螺母",
+      "stl_dir": "Nuts/Clip-on nuts (Sheet metal or speed nuts)/Square style nuts",
+      "stl": "Square style nuts1.stl"
+    },
+    "square_washers": {
+      "zh": "垫圈-方垫圈",
+      "stl_dir": "Washers/Square washers",
+      "stl": "Square washers1.stl"
+    },
+    "t_bolts": {
+      "zh": "螺钉螺栓-T型螺栓",
+      "stl_dir": "Screws and bolts/bolts/T-Bolts",
+      "stl": "T-Bolts1.stl"
+    },
+    "t_nuts": {
+      "zh": "螺母-T型螺母",
+      "stl_dir": "Nuts/T-nuts",
+      "stl": "T-nuts1.stl"
+    },
+    "tab_washers": {
+      "zh": "垫圈-止动垫圈",
+      "stl_dir": "Washers/Tab washers",
+      "stl": "Tab washers1.stl"
+    },
+    "taper_washers": {
+      "zh": "垫圈-锥形垫圈",
+      "stl_dir": "Washers/Taper washers",
+      "stl": "Taper washers1.stl"
+    },
+    "tapered_roller_bearings": {
+      "zh": "滚子轴承-圆锥滚子轴承",
+      "stl_dir": "Roller bearings/Tapered roller bearings",
+      "stl": "Tapered roller bearings1.stl"
+    },
+    "thrust_bearings": {
+      "zh": "轴承-推力轴承",
+      "stl_dir": "Bearings/Bearings (ball, roller, needle, etc.)/Thrust bearings",
+      "stl": "Thrust bearings1.stl"
+    },
+    "torque_control": {
+      "zh": "机器工具-扭矩工具",
+      "stl_dir": "Machines & Tools/Mechanical tools/Torque control",
+      "stl": "Torque control1.stl"
+    },
+    "u_bolts": {
+      "zh": "螺钉螺栓-U型螺栓",
+      "stl_dir": "Screws and bolts/bolts/U-Bolts",
+      "stl": "U-Bolts1.stl"
+    },
+    "vice": {
+      "zh": "机器工具-台钳",
+      "stl_dir": "Machines & Tools/Mechanical tools/Vice",
+      "stl": "Vice1.stl"
+    },
+    "washers_screws": {
+      "zh": "螺钉螺栓-垫圈螺丝",
+      "stl_dir": "Screws and bolts/Cap screws/Washer screws",
+      "stl": "Washer screws1.stl"
+    },
+    "weld_nuts": {
+      "zh": "螺母-焊接螺母",
+      "stl_dir": "Nuts/Weld nuts",
+      "stl": "Weld nuts1.stl"
+    },
+    "wing_nuts": {
+      "zh": "螺母-蝶形螺母",
+      "stl_dir": "Nuts/Wing nuts",
+      "stl": "Wing nuts1.stl"
+    },
+    "worm_gears": {
+      "zh": "齿轮-蜗轮",
+      "stl_dir": "Gears/Worm gears",
+      "stl": "Worm gears1.stl"
+    },
+    "wrenches": {
+      "zh": "机器工具-扳手",
+      "stl_dir": "Machines & Tools/Mechanical tools/Wrenches",
+      "stl": "Wrenches1.stl"
+    }
+  },
+  "unmapped": []
+}

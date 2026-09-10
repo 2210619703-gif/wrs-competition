@@ -1,0 +1,815 @@
+{
+  "image": "0002.jpg",
+  "width": 1280,
+  "height": 720,
+  "objects": [
+    {
+      "id": 1,
+      "class": "机器工具-螺丝刀",
+      "bbox": [
+        410,
+        309,
+        588,
+        457
+      ],
+      "polygon": [
+        [
+          416,
+          310
+        ],
+        [
+          412,
+          314
+        ],
+        [
+          412,
+          334
+        ],
+        [
+          416,
+          338
+        ],
+        [
+          416,
+          340
+        ],
+        [
+          418,
+          342
+        ],
+        [
+          418,
+          344
+        ],
+        [
+          420,
+          346
+        ],
+        [
+          422,
+          346
+        ],
+        [
+          424,
+          348
+        ],
+        [
+          428,
+          348
+        ],
+        [
+          430,
+          350
+        ],
+        [
+          434,
+          350
+        ],
+        [
+          436,
+          352
+        ],
+        [
+          440,
+          352
+        ],
+        [
+          442,
+          354
+        ],
+        [
+          446,
+          354
+        ],
+        [
+          448,
+          356
+        ],
+        [
+          450,
+          356
+        ],
+        [
+          452,
+          358
+        ],
+        [
+          456,
+          358
+        ],
+        [
+          458,
+          360
+        ],
+        [
+          460,
+          360
+        ],
+        [
+          464,
+          364
+        ],
+        [
+          466,
+          364
+        ],
+        [
+          470,
+          368
+        ],
+        [
+          470,
+          370
+        ],
+        [
+          472,
+          372
+        ],
+        [
+          472,
+          374
+        ],
+        [
+          474,
+          376
+        ],
+        [
+          474,
+          384
+        ],
+        [
+          478,
+          388
+        ],
+        [
+          480,
+          388
+        ],
+        [
+          486,
+          394
+        ],
+        [
+          484,
+          396
+        ],
+        [
+          484,
+          398
+        ],
+        [
+          480,
+          402
+        ],
+        [
+          480,
+          404
+        ],
+        [
+          474,
+          410
+        ],
+        [
+          474,
+          412
+        ],
+        [
+          466,
+          420
+        ],
+        [
+          466,
+          422
+        ],
+        [
+          464,
+          424
+        ],
+        [
+          464,
+          426
+        ],
+        [
+          462,
+          428
+        ],
+        [
+          462,
+          430
+        ],
+        [
+          460,
+          432
+        ],
+        [
+          460,
+          438
+        ],
+        [
+          458,
+          440
+        ],
+        [
+          458,
+          448
+        ],
+        [
+          462,
+          452
+        ],
+        [
+          464,
+          452
+        ],
+        [
+          466,
+          454
+        ],
+        [
+          470,
+          454
+        ],
+        [
+          472,
+          452
+        ],
+        [
+          480,
+          452
+        ],
+        [
+          482,
+          450
+        ],
+        [
+          484,
+          450
+        ],
+        [
+          488,
+          446
+        ],
+        [
+          490,
+          446
+        ],
+        [
+          508,
+          428
+        ],
+        [
+          508,
+          426
+        ],
+        [
+          522,
+          412
+        ],
+        [
+          522,
+          410
+        ],
+        [
+          534,
+          398
+        ],
+        [
+          534,
+          396
+        ],
+        [
+          550,
+          380
+        ],
+        [
+          552,
+          380
+        ],
+        [
+          554,
+          378
+        ],
+        [
+          556,
+          378
+        ],
+        [
+          558,
+          376
+        ],
+        [
+          572,
+          376
+        ],
+        [
+          574,
+          374
+        ],
+        [
+          580,
+          374
+        ],
+        [
+          582,
+          372
+        ],
+        [
+          584,
+          372
+        ],
+        [
+          586,
+          370
+        ],
+        [
+          586,
+          362
+        ],
+        [
+          584,
+          362
+        ],
+        [
+          574,
+          352
+        ],
+        [
+          574,
+          350
+        ],
+        [
+          572,
+          348
+        ],
+        [
+          572,
+          342
+        ],
+        [
+          570,
+          340
+        ],
+        [
+          570,
+          338
+        ],
+        [
+          568,
+          338
+        ],
+        [
+          562,
+          332
+        ],
+        [
+          550,
+          332
+        ],
+        [
+          548,
+          334
+        ],
+        [
+          546,
+          334
+        ],
+        [
+          544,
+          336
+        ],
+        [
+          542,
+          336
+        ],
+        [
+          540,
+          338
+        ],
+        [
+          538,
+          338
+        ],
+        [
+          536,
+          340
+        ],
+        [
+          532,
+          340
+        ],
+        [
+          530,
+          342
+        ],
+        [
+          518,
+          342
+        ],
+        [
+          516,
+          340
+        ],
+        [
+          510,
+          340
+        ],
+        [
+          508,
+          338
+        ],
+        [
+          504,
+          338
+        ],
+        [
+          502,
+          336
+        ],
+        [
+          498,
+          336
+        ],
+        [
+          496,
+          334
+        ],
+        [
+          492,
+          334
+        ],
+        [
+          490,
+          332
+        ],
+        [
+          486,
+          332
+        ],
+        [
+          484,
+          330
+        ],
+        [
+          480,
+          330
+        ],
+        [
+          478,
+          328
+        ],
+        [
+          476,
+          328
+        ],
+        [
+          474,
+          326
+        ],
+        [
+          470,
+          326
+        ],
+        [
+          468,
+          324
+        ],
+        [
+          464,
+          324
+        ],
+        [
+          462,
+          322
+        ],
+        [
+          458,
+          322
+        ],
+        [
+          456,
+          320
+        ],
+        [
+          452,
+          320
+        ],
+        [
+          450,
+          318
+        ],
+        [
+          446,
+          318
+        ],
+        [
+          444,
+          316
+        ],
+        [
+          442,
+          316
+        ],
+        [
+          440,
+          314
+        ],
+        [
+          436,
+          314
+        ],
+        [
+          434,
+          312
+        ],
+        [
+          432,
+          312
+        ],
+        [
+          430,
+          310
+        ]
+      ],
+      "mask_path": "masks/0002_01.png",
+      "pose_6d": {
+        "x": -0.0760651366260679,
+        "y": -0.07377066992722509,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 5.7920072478154205
+      },
+      "visible_pixels": 10047,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Machines & Tools\\Power tools\\Screwdrivers\\Screwdrivers1.stl",
+      "state": "normal",
+      "score": 0.9957990050315857,
+      "pointcloud_path": "pointclouds/0002_01.ply"
+    },
+    {
+      "id": 2,
+      "class": "轴承-组合轴承",
+      "bbox": [
+        752,
+        236,
+        784,
+        304
+      ],
+      "polygon": [
+        [
+          754,
+          238
+        ],
+        [
+          754,
+          300
+        ],
+        [
+          758,
+          300
+        ],
+        [
+          760,
+          302
+        ],
+        [
+          772,
+          302
+        ],
+        [
+          774,
+          300
+        ],
+        [
+          776,
+          300
+        ],
+        [
+          780,
+          296
+        ],
+        [
+          780,
+          286
+        ],
+        [
+          782,
+          284
+        ],
+        [
+          782,
+          240
+        ],
+        [
+          780,
+          238
+        ]
+      ],
+      "mask_path": "masks/0002_02.png",
+      "pose_6d": {
+        "x": 0.018784421163486997,
+        "y": 0.19013807222300838,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 5.0755232731051425
+      },
+      "visible_pixels": 1765,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Bearings\\Bearings (ball, roller, needle, etc.)\\Combined bearings\\Combined bearings1.stl",
+      "state": "normal",
+      "score": 0.9877097606658936,
+      "pointcloud_path": "pointclouds/0002_02.ply"
+    },
+    {
+      "id": 3,
+      "class": "螺钉螺栓-石膏板圆头螺丝",
+      "bbox": [
+        816,
+        346,
+        826,
+        365
+      ],
+      "polygon": [
+        [
+          818,
+          348
+        ],
+        [
+          818,
+          364
+        ],
+        [
+          822,
+          364
+        ],
+        [
+          822,
+          348
+        ]
+      ],
+      "mask_path": "masks/0002_03.png",
+      "pose_6d": {
+        "x": 0.11467345646602967,
+        "y": 0.12310844617750649,
+        "z": 0.0,
+        "roll": 0.0,
+        "pitch": 0.0,
+        "yaw": 5.247370270410848
+      },
+      "visible_pixels": 100,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Screws and bolts\\Special screws (Drywall, plastic, tapping, wood)\\Drywall screws\\Drywall button screws\\Drywall button screws1.stl",
+      "state": "normal",
+      "score": 0.9231709837913513,
+      "pointcloud_path": "pointclouds/0002_03.ply"
+    },
+    {
+      "id": 4,
+      "class": "螺钉螺栓-塑料圆柱头螺丝",
+      "bbox": [
+        585,
+        188,
+        600,
+        209
+      ],
+      "polygon": [
+        [
+          586,
+          190
+        ],
+        [
+          586,
+          204
+        ],
+        [
+          592,
+          204
+        ],
+        [
+          594,
+          206
+        ],
+        [
+          596,
+          204
+        ],
+        [
+          596,
+          190
+        ]
+      ],
+      "mask_path": "masks/0002_04.png",
+      "pose_6d": {
+        "x": -0.24083247302649308,
+        "y": 0.26285793137489855,
+        "z": 0.0,
+        "roll": 1.5707963267948966,
+        "pitch": 0.0,
+        "yaw": 5.383852350666475
+      },
+      "visible_pixels": 180,
+      "stl_path": "F:\\wrs-main-competition\\tiaozhanbei\\Part_Model\\Screws and bolts\\Special screws (Drywall, plastic, tapping, wood)\\Plastic screws\\Plastic fillister screws\\Plastic fillister screws1.stl",
+      "state": "fallen",
+      "score": 0.9036818146705627,
+      "pointcloud_path": "pointclouds/0002_04.ply"
+    }
+  ],
+  "camera": {
+    "position": [
+      0.6499999761581421,
+      -0.949999988079071,
+      0.75
+    ],
+    "rotmat": [
+      [
+        0.8253072500228882,
+        -0.4787442088127136,
+        -0.29945263266563416
+      ],
+      [
+        0.5646839141845703,
+        0.6997030973434448,
+        0.4376615285873413
+      ],
+      [
+        0.0,
+        -0.5303013324737549,
+        0.8478091955184937
+      ]
+    ],
+    "intrinsics": {
+      "fx": 1545.0966799187809,
+      "fy": 1545.096596981165,
+      "cx": 639.5,
+      "cy": 359.5
+    },
+    "near": 0.01,
+    "far": 5.0
+  },
+  "source": "yolo_seg",
+  "seed": 4200002,
+  "desk_stripe": {
+    "style": "vert_bluegray",
+    "texture_path": "F:\\wrs-main-competition\\tiaozhanbei\\textures\\desk_stripes\\vert_bluegray_512.png"
+  },
+  "part_paths": [
+    "Bearings/Bearings (ball, roller, needle, etc.)/Combined bearings/Combined bearings1.stl",
+    "Machines & Tools/Power tools/Screwdrivers/Screwdrivers1.stl",
+    "Nuts/Flange nuts/Flange nuts1.stl",
+    "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Drywall screws/Drywall button screws/Drywall button screws1.stl",
+    "Screws and bolts/Special screws (Drywall, plastic, tapping, wood)/Plastic screws/Plastic fillister screws/Plastic fillister screws1.stl",
+    "Washers/Plain or flat washers/Plain or flat washers1.stl"
+  ],
+  "scene_layout": {
+    "coordinate_frame": "desk_z0_robot_base_origin",
+    "robot": {
+      "base_pos_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "keep_out_radius_m": 0.14,
+      "rendered_in_dataset": false
+    },
+    "storage_box": {
+      "pos_m": [
+        0.3,
+        -0.2,
+        0.0
+      ],
+      "size_outer_m": [
+        0.3,
+        0.24,
+        0.12
+      ],
+      "wall_thickness_m": 0.008,
+      "clearance_m": 0.04,
+      "keepout_xy_min_m": [
+        0.10999999999999999,
+        -0.36
+      ],
+      "keepout_xy_max_m": [
+        0.49,
+        -0.04000000000000001
+      ],
+      "place_tcp_z_m": 0.1,
+      "rendered_in_dataset": false,
+      "note": "采集图不渲染；后续 pick-place 仿真按此固定坐标生成盒子"
+    },
+    "part_spawn": {
+      "xy_min_m": [
+        -0.28,
+        -0.28
+      ],
+      "xy_max_m": [
+        0.12,
+        0.28
+      ],
+      "min_center_dist_m": 0.09,
+      "avoids": [
+        "robot_keepout",
+        "storage_box_keepout"
+      ]
+    }
+  },
+  "n_parts": 6,
+  "manifest_round": 1
+}

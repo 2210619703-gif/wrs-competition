@@ -1,0 +1,153 @@
+{
+  "task": {
+    "task_id": "t_verify_0002_03",
+    "step": 14,
+    "action": "pick_place",
+    "object": "机器工具-螺丝刀",
+    "coordinate": [
+      -0.0760651366260679,
+      -0.07377066992722509,
+      0.0
+    ],
+    "dest_coordinate": [
+      0.6499999999999999,
+      -0.2,
+      0.0
+    ],
+    "destination": "收纳盒-B",
+    "angle": 5.792007,
+    "rpy": [
+      0.0,
+      0.0,
+      5.792007
+    ],
+    "retry": 0,
+    "max_retry": 3,
+    "status": "pending",
+    "reason": "区域装箱第1/1件",
+    "original_cmd": "帮我把所有零件放进收纳箱",
+    "agent_id": "agent_B",
+    "tasks": [
+      {
+        "task_id": "t013",
+        "step": 13,
+        "action": "perceive",
+        "object": "机器工具-螺丝刀",
+        "coordinate": [
+          -0.0760651366260679,
+          -0.07377066992722509,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.6499999999999999,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒-B",
+        "angle": 5.792007,
+        "rpy": [
+          0.0,
+          0.0,
+          5.792007
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "识别场景目标并定位；判断正常/倒放/倾倒",
+        "original_cmd": "帮我把所有零件放进收纳箱",
+        "pose_state": "normal",
+        "pose_state_cn": "正常",
+        "agent_id": "agent_B"
+      },
+      {
+        "task_id": "t014",
+        "step": 14,
+        "action": "pick",
+        "object": "机器工具-螺丝刀",
+        "coordinate": [
+          -0.0760651366260679,
+          -0.07377066992722509,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.6499999999999999,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒-B",
+        "angle": 5.792007,
+        "rpy": [
+          0.0,
+          0.0,
+          5.792007
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "区域装箱第1/1件",
+        "original_cmd": "帮我把所有零件放进收纳箱",
+        "agent_id": "agent_B"
+      },
+      {
+        "task_id": "t015",
+        "step": 15,
+        "action": "move",
+        "object": "机器工具-螺丝刀",
+        "coordinate": [
+          0.6499999999999999,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.6499999999999999,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒-B",
+        "angle": 5.792007,
+        "rpy": [
+          0.0,
+          0.0,
+          5.792007
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "携带零件移动至放置目标上方",
+        "original_cmd": "帮我把所有零件放进收纳箱",
+        "agent_id": "agent_B"
+      },
+      {
+        "task_id": "t016",
+        "step": 16,
+        "action": "place",
+        "object": "机器工具-螺丝刀",
+        "coordinate": [
+          0.6499999999999999,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.6499999999999999,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒-B",
+        "angle": 5.792007,
+        "rpy": [
+          0.0,
+          0.0,
+          5.792007
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "",
+        "original_cmd": "帮我把所有零件放进收纳箱",
+        "agent_id": "agent_B",
+        "on_fail_action": "retry_place",
+        "on_fail_max_retry": 3
+      }
+    ]
+  }
+}

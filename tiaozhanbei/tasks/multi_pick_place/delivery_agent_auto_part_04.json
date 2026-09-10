@@ -1,0 +1,162 @@
+{
+  "scene": "standard",
+  "scene_source": "yolo",
+  "sample_id": "0001",
+  "scene_reason": "启动时随机场景",
+  "agent_source": "远程 Dify 智能体",
+  "user_cmd": "帮我把全部零件放进胸那款",
+  "yolo_annotations": "F:\\wrs-main-competition\\tiaozhanbei\\yolo\\outputs\\0001.json",
+  "dataset_root": "F:\\wrs-main-competition\\tiaozhanbei\\yolo\\sim_dataset",
+  "task": {
+    "task_id": "t_pack_batch_04",
+    "step": 2,
+    "action": "pick_place",
+    "object": "螺母-焊接螺母",
+    "coordinate": [
+      -0.27181021343280154,
+      0.05563015453790854,
+      0.0
+    ],
+    "dest_coordinate": [
+      0.3,
+      -0.2,
+      0.0
+    ],
+    "destination": "收纳盒",
+    "angle": 0.5864825917782159,
+    "rpy": [
+      0.0,
+      0.0,
+      0.5864825917782159
+    ],
+    "retry": 0,
+    "max_retry": 3,
+    "status": "pending",
+    "reason": "batch 子任务",
+    "original_cmd": "帮我把全部零件放进胸那款",
+    "pose_state": "normal",
+    "tasks": [
+      {
+        "task_id": "t001",
+        "step": 1,
+        "action": "perceive",
+        "object": "螺母-焊接螺母",
+        "coordinate": [
+          -0.27181021343280154,
+          0.05563015453790854,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 0.5864825917782159,
+        "rpy": [
+          0.0,
+          0.0,
+          0.5864825917782159
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "batch 子任务",
+        "original_cmd": "帮我把全部零件放进胸那款",
+        "pose_state": "normal"
+      },
+      {
+        "task_id": "t002",
+        "step": 2,
+        "action": "pick",
+        "object": "螺母-焊接螺母",
+        "coordinate": [
+          -0.27181021343280154,
+          0.05563015453790854,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 0.5864825917782159,
+        "rpy": [
+          0.0,
+          0.0,
+          0.5864825917782159
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "batch 子任务",
+        "original_cmd": "帮我把全部零件放进胸那款",
+        "pose_state": "normal"
+      },
+      {
+        "task_id": "t003",
+        "step": 3,
+        "action": "move",
+        "object": "螺母-焊接螺母",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 0.5864825917782159,
+        "rpy": [
+          0.0,
+          0.0,
+          0.5864825917782159
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "batch 子任务",
+        "original_cmd": "帮我把全部零件放进胸那款",
+        "pose_state": "normal"
+      },
+      {
+        "task_id": "t004",
+        "step": 4,
+        "action": "place",
+        "object": "螺母-焊接螺母",
+        "coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "dest_coordinate": [
+          0.3,
+          -0.2,
+          0.0
+        ],
+        "destination": "收纳盒",
+        "angle": 0.5864825917782159,
+        "rpy": [
+          0.0,
+          0.0,
+          0.5864825917782159
+        ],
+        "retry": 0,
+        "max_retry": 3,
+        "status": "pending",
+        "reason": "batch 子任务",
+        "original_cmd": "帮我把全部零件放进胸那款",
+        "pose_state": "normal"
+      }
+    ],
+    "task_sequence_desc": [
+      "4.螺母-焊接螺母:perceive>pick>move>place"
+    ]
+  },
+  "multi_pick_place_index": 4,
+  "multi_pick_place_total": 4
+}

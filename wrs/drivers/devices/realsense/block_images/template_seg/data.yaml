@@ -1,0 +1,7 @@
+# 模板区专用 YOLO-Segment（独立数据集，不覆盖原 labels_seg / train 权重）
+# 0=red 1=green 2=blue 3=yellow 4=orange
+path: F:/wrs-main-competition/wrs/drivers/devices/realsense/block_images/template_seg
+train: images/train
+val: images/val
+nc: 5
+names: ['red', 'green', 'blue', 'yellow', 'orange']
