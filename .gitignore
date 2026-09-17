@@ -15,8 +15,8 @@ __pycache__/
 *.so
 *.dae
 
-# --- 训练权重与模型文件 (避免上传，因为通常很大) ---
-# 如果你需要上传某个特定的模型，可以在前面加 ! (例如 !model.pt)
+# --- è®­ç»æéä¸æ¨¡åæä»¶ (é¿åä¸ä¼ ï¼å ä¸ºéå¸¸å¾å¤§) ---
+# å¦æä½ éè¦ä¸ä¼ æä¸ªç¹å®çæ¨¡åï¼å¯ä»¥å¨åé¢å  ! (ä¾å¦ !model.pt)
 #*.pkl
 *.safetensors
 *.h5
@@ -26,22 +26,22 @@ __pycache__/
 *.weights
 *.bin
 
-# --- 临时数据与日志 ---
+# --- ä¸´æ¶æ°æ®ä¸æ¥å¿ ---
 *.log
 *.tmp
 *.temp
 *.swp
 
-# --- 图片与文档 ---
-# 如果你想上传模型配套的图片，请注释掉下面这两行
+# --- å¾çä¸ææ¡£ ---
+# å¦æä½ æ³ä¸ä¼ æ¨¡åéå¥çå¾çï¼è¯·æ³¨éæä¸é¢è¿ä¸¤è¡
 # *.jpg
 # *.png
 *.pdf
 *.zip
 *.tar.gz
 
-# --- 项目特定路径 (根据你之前的配置保留) ---
-# 这些路径下的文件将不会被 Git 跟踪
+# --- é¡¹ç®ç¹å®è·¯å¾ (æ ¹æ®ä½ ä¹åçéç½®ä¿ç) ---
+# è¿äºè·¯å¾ä¸çæä»¶å°ä¸ä¼è¢« Git è·è¸ª
 wrs/robot_con/piper/policy/sem/ckpt/
 #wrs/robot_sim/_data_files/
 wrs/robot_con/piper/policy/sem/model/
@@ -74,9 +74,12 @@ pick_multi_block/dataset/
 !competition/yolo_delivery_samples/*.jpg
 
 
-# Gitee ������ƣ�ȫ��ͼ/���Ʋ����
-tiaozhanbei/yolo/ʵ��/dataset/
-tiaozhanbei/yolo/����/outputs/
-tiaozhanbei/yolo/����/sim_dataset/
+# Gitee Ìå»ýÏÞÖÆ£ºÈ«Á¿Í¼/µãÔÆ²»Èë¿â
+tiaozhanbei/yolo/Êµ»ú/dataset/
+tiaozhanbei/yolo/·ÂÕæ/outputs/
+tiaozhanbei/yolo/·ÂÕæ/sim_dataset/
 **/*.ply
 **/*.npy
+
+# 水果 demo 运行产物
+demo/outputs/

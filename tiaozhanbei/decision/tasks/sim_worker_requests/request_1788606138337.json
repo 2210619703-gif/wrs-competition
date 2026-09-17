@@ -1,8 +1,0 @@
-{
-  "task": "F:\\wrs-main-competition\\tiaozhanbei\\tasks\\delivery_agent_auto.json",
-  "sample_id": "0001",
-  "dataset_root": "F:\\wrs-main-competition\\tiaozhanbei\\dataset_learn",
-  "wait_start_file": "F:\\wrs-main-competition\\tiaozhanbei\\decision\\tasks\\ui_start_1788606138299_34864.go",
-  "no_rrt": false,
-  "sim_ui_batch": true
-}
